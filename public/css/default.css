@@ -646,12 +646,7 @@ img.pull-left {
 
 /*  6. Buttons  --------------------------------------------------------- */
 
-.button,
-.button:visited,
-button,
-input[type="submit"],
-input[type="reset"],
-input[type="button"] {
+button {
   font: 16px/30px "opensans-bold", sans-serif;
   background: #11abb0;
   display: inline-block;
@@ -674,40 +669,25 @@ input[type="button"] {
   -webkit-border-radius: 3px;
   -khtml-border-radius: 3px;
   border-radius: 3px;
-}
 
-.button:hover,
-button:hover,
-input[type="submit"]:hover,
-input[type="reset"]:hover,
-input[type="button"]:hover {
-  background: #3d4145;
-  color: #fff;
-}
-
-.button:active,
-button:active,
-input[type="submit"]:active,
-input[type="reset"]:active,
-input[type="button"]:active {
-  background: #3d4145;
-  color: #fff;
-}
-
-.button.full-width,
-button.full-width,
-input[type="submit"].full-width,
-input[type="reset"].full-width,
-input[type="button"].full-width {
-  width: 100%;
+  width: 65%;
   padding-left: 0 !important;
   padding-right: 0 !important;
   text-align: center;
 }
 
+button:hover {
+  background: #3d4145;
+  color: #fff;
+}
+
+button:active {
+  background: #3d4145;
+  color: #fff;
+}
+
 /* Fix for odd Mozilla border & padding issues */
-button::-moz-focus-inner,
-input::-moz-focus-inner {
+button::-moz-focus-inner {
   border: 0;
   padding: 0;
 }

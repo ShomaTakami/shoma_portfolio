@@ -55,7 +55,7 @@ header .banner {
   margin: 0 auto;
   width: 85%;
   padding-bottom: 30px;
-  stext-align: center;
+  text-align: center;
 }
 
 header .banner-text {
@@ -227,7 +227,7 @@ ul#nav li.current a {
 }
 #about p {
   line-height: 30px;
-  color: #7a7a7a;
+  color: #c5c5c5;
 }
 #about .profile-pic {
   position: relative;
@@ -380,21 +380,21 @@ ul#nav li.current a {
  } */
 .html5 {
   width: 80%;
-  -moz-animation: html5 2s ease;
-  -webkit-animation: html5 2s ease;
+  /* -moz-animation: html5 2s ease;
+  -webkit-animation: html5 2s ease; */
 }
 .css {
   width: 90%;
-  -moz-animation: css 2s ease;
-  -webkit-animation: css 2s ease;
+  /* -moz-animation: css 2s ease;
+  -webkit-animation: css 2s ease; */
 }
 .react {
   width: 50%;
-  -moz-animation: react 2s ease;
-  -webkit-animation: react 2s ease;
+  /* -moz-animation: react 2s ease;
+  -webkit-animation: react 2s ease; */
 }
 
-@-moz-keyframes html5 {
+/* @-moz-keyframes html5 {
   0% {
     width: 0px;
   }
@@ -442,7 +442,7 @@ ul#nav li.current a {
   100% {
     width: 50%;
   }
-}
+} */
 
 /* ------------------------------------------------------------------ */
 /* f. Call To Action Section
@@ -592,7 +592,7 @@ ul#nav li.current a {
 /* Hide the slides before the JS is loaded. Avoids image jumping */
 .flexslider .slides > li {
   display: none;
-  -webkit-backface-visibility: hidden;
+  /* -webkit-backface-visibility: hidden; */
 }
 /* Suggested container for slide animation setups. Can replace this with your own */
 .flex-container {
