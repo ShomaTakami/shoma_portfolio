@@ -632,7 +632,6 @@ dd {
 } */
 
 /*  5. Images  --------------------------------------------------------- */
-
 img {
   max-width: 100%;
   height: auto;
@@ -772,6 +771,12 @@ input[type="checkbox"] {
   max-width: 1020px;
   margin: 0 auto;
 }
+.work-width {
+  width: 100%;
+  /* max-width: 1020px; */
+  max-width: 85vw;
+  margin: 0 20% 0 0;
+}
 /* fixed width for IE8 */
 .ie .row {
   width: 1000px;
@@ -830,7 +835,8 @@ input[type="checkbox"] {
   width: 8.33333%;
 }
 .row .two {
-  width: 16.66667%;
+  width: 10.66667%;
+  /* width: 6%; */
 }
 .row .three {
   width: 25%;

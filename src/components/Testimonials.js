@@ -5,7 +5,7 @@ export default class Testimonials extends Component {
     return (
       <section id='testimonials'>
         <div className='text-container'>
-          <div className='row'>
+          <div className='row work-width'>
             <div className='two columns header-col'>
               <h1>Check Out Some of My Works.</h1>
             </div>
@@ -21,7 +21,7 @@ export default class Testimonials extends Component {
                               <img
                                 src={`${item.imgurl}`}
                                 className='item-img'
-                                alt='{item.name}'
+                                alt={`${item.name}`}
                               />
                               <div className='overlay'>
                                 <div className='portfolio-item-meta'>
