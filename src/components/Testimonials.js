@@ -1,5 +1,8 @@
 import React, { Component } from "react";
 export default class Testimonials extends Component {
+  onClick() {
+    window.location.href = "https://www.google.ca/";
+  }
   render() {
     let resumeData = this.props.resumeData;
     return (
@@ -17,23 +20,21 @@ export default class Testimonials extends Component {
                       return (
                         <li>
                           <div className='item-wrap'>
-                            <a href='#modal-01'>
-                              <img
-                                src={`${item.imgurl}`}
-                                className='item-img'
-                                alt={`${item.name}`}
-                              />
-                              <div className='overlay'>
-                                <div className='portfolio-item-meta'>
-                                  <h3>{item.name}</h3>
-                                  <button>
-                                    <a href='https://www.google.ca/'>
-                                      View More
-                                    </a>
-                                  </button>
-                                </div>
+                            {/* <a href='#modal-01'> */}
+                            <img
+                              src={`${item.imgurl}`}
+                              className='item-img'
+                              alt={`${item.name}`}
+                            />
+                            <div className='overlay'>
+                              <div className='portfolio-item-meta'>
+                                <h3>{item.name}</h3>
+                                <button onClick={this.onClick}>
+                                  View More
+                                </button>
                               </div>
-                            </a>
+                            </div>
+                            {/* </a> */}
                           </div>
                         </li>
                       );
