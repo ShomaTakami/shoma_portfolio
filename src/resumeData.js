@@ -1,9 +1,7 @@
 let resumeData = {
-  // imagebaseurl: "https://rbhatia46.github.io/",
   name: "Shoma Takami",
   role: "Frontend Developer",
   mail: "hawklook.2331@gmail.com",
-  // skypeid: "Your skypeid",
   roleDescription:
     "Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque voluptatem odit quasi pariatur nobis debitis quos molestiae eum, magni veritatis vero soluta labore. At dolorem eaque assumenda, odit enim beatae.",
   socialLinks: [

@@ -362,39 +362,24 @@ ul#nav li.current a {
   line-height: 42px;
   border-radius: 3px 0 0 3px;
 }
-/* 
- .photoshop {
-  width: 60%;
-  -moz-animation: photoshop 2s ease;
-  -webkit-animation: photoshop 2s ease;
-}
-.illustrator {
-  width: 55%;
-  -moz-animation: illustrator 2s ease;
-  -webkit-animation: illustrator 2s ease;
-}
-.wordpress {
-  width: 50%;
-  -moz-animation: wordpress 2s ease;
-  -webkit-animation: wordpress 2s ease;
- } */
+
 .html5 {
   width: 80%;
-  /* -moz-animation: html5 2s ease;
-  -webkit-animation: html5 2s ease; */
+  -moz-animation: html5 2s ease;
+  -webkit-animation: html5 2s ease;
 }
 .css {
   width: 90%;
-  /* -moz-animation: css 2s ease;
-  -webkit-animation: css 2s ease; */
+  -moz-animation: css 2s ease;
+  -webkit-animation: css 2s ease;
 }
 .react {
   width: 50%;
-  /* -moz-animation: react 2s ease;
-  -webkit-animation: react 2s ease; */
+  -moz-animation: react 2s ease;
+  -webkit-animation: react 2s ease;
 }
 
-/* @-moz-keyframes html5 {
+@-moz-keyframes html5 {
   0% {
     width: 0px;
   }
@@ -442,7 +427,7 @@ ul#nav li.current a {
   100% {
     width: 50%;
   }
-} */
+}
 
 /* ------------------------------------------------------------------ */
 /* f. Call To Action Section
