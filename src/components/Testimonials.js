@@ -18,7 +18,7 @@ export default class Testimonials extends Component {
                   {resumeData.portfolio &&
                     resumeData.portfolio.map(item => {
                       return (
-                        <li>
+                        <li key={item.name}>
                           <div className='item-wrap'>
                             {/* <a href='#modal-01'> */}
                             <img
