@@ -20,7 +20,6 @@ export default class Testimonials extends Component {
                       return (
                         <li key={item.name}>
                           <div className='item-wrap'>
-                            {/* <a href='#modal-01'> */}
                             <img
                               src={`${item.imgurl}`}
                               className='item-img'
@@ -34,7 +33,6 @@ export default class Testimonials extends Component {
                                 </button>
                               </div>
                             </div>
-                            {/* </a> */}
                           </div>
                         </li>
                       );
