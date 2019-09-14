@@ -1,8 +1,8 @@
 import React, { Component } from "react";
 export default class Testimonials extends Component {
-  onClick() {
-    window.location.href = "https://www.google.ca/";
-  }
+  // onClick() {
+  //   window.location.href = "https://www.google.ca/";
+  // }
   render() {
     let resumeData = this.props.resumeData;
     return (
@@ -28,7 +28,10 @@ export default class Testimonials extends Component {
                             <div className='overlay'>
                               <div className='portfolio-item-meta'>
                                 <h3>{item.name}</h3>
-                                <button onClick={this.onClick}>
+                                <button
+                                  onClick={() => {
+                                    window.location.href = `${item.url}`;
+                                  }}>
                                   View More
                                 </button>
                               </div>

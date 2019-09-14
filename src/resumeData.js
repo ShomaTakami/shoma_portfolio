@@ -43,37 +43,48 @@ let resumeData = {
   ],
 
   skills: [
+    // {
+    //   skillname: "HTML5"
+    // },
+    // {
+    //   skillname: "CSS"
+    // },
     {
-      skillname: "HTML5"
-    },
-    {
-      skillname: "CSS"
+      skillname: "Javascript"
     },
     {
       skillname: "REACT"
+    },
+    {
+      skillname: "Node"
     }
   ],
 
   portfolio: [
     {
       name: "web app1",
-      imgurl: "images/portfolio/m-retrocam.jpg"
+      imgurl: "images/portfolio/portfolio1.png",
+      url: "https://waaark.com/"
     },
     {
       name: "web app2",
-      imgurl: "images/portfolio/m-retrocam.jpg"
+      imgurl: "images/portfolio/m-retrocam.jpg",
+      url: "https://waaark.com/"
     },
     {
       name: "web app3",
-      imgurl: "images/portfolio/m-retrocam.jpg"
+      imgurl: "images/portfolio/m-retrocam.jpg",
+      url: "https://waaark.com/"
     },
     {
       name: "web app4",
-      imgurl: "images/portfolio/m-retrocam.jpg"
+      imgurl: "images/portfolio/m-retrocam.jpg",
+      url: "https://waaark.com/"
     },
     {
       name: "web app5",
-      imgurl: "images/portfolio/m-retrocam.jpg"
+      imgurl: "images/portfolio/m-retrocam.jpg",
+      url: "https://waaark.com/"
     }
   ]
 };
