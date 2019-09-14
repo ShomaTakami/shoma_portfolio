@@ -3,7 +3,7 @@ let resumeData = {
   role: "Frontend Developer",
   mail: "hawklook.2331@gmail.com",
   roleDescription:
-    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque voluptatem odit quasi pariatur nobis debitis quos molestiae eum, magni veritatis vero soluta labore. At dolorem eaque assumenda, odit enim beatae.",
+    "I am responsive for Web design and Front-end developping with HTML, CSS, JS, jQuery and React. Hope you like this web site!",
   socialLinks: [
     {
       name: "linkedin",
@@ -22,24 +22,24 @@ let resumeData = {
     }
   ],
   aboutme:
-    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque voluptatem odit quasi pariatur nobis debitis quos molestiae eum, magni veritatis vero soluta labore. At dolorem eaque assumenda, odit enim beatae.",
+    "I was born in Gifu where is countryside in Japan. After I graduated the Highschool, I've been abroad some countries to have feel what differencies between Japan and others. Then, I live in Canada. I love workout, drawing, fashion and traveling. ",
   address: "Japan",
   website: "https://github.com/ShomaTakami",
   education: [
     {
-      UniversityName: "University",
-      specialization: "major",
-      MonthOfPassing: "Aug",
+      UniversityName: "Cornerstone International Community College of Canada",
+      specialization: "diploma",
+      MonthOfPassing: "Dec",
       YearOfPassing: "2019",
-      Achievements: "Some Achievements"
-    },
-    {
-      UniversityName: "Some University",
-      specialization: "major",
-      MonthOfPassing: "Jan",
-      YearOfPassing: "2015",
-      Achievements: "Some Achievements"
+      Achievements: "Web & App developping"
     }
+    // {
+    //   UniversityName: "Some University",
+    //   specialization: "major",
+    //   MonthOfPassing: "Jan",
+    //   YearOfPassing: "2015",
+    //   Achievements: "Some Achievements"
+    // }
   ],
 
   skills: [
@@ -69,6 +69,10 @@ let resumeData = {
     },
     {
       name: "web app4",
+      imgurl: "images/portfolio/m-retrocam.jpg"
+    },
+    {
+      name: "web app5",
       imgurl: "images/portfolio/m-retrocam.jpg"
     }
   ]
