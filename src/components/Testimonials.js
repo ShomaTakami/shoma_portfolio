@@ -1,8 +1,6 @@
 import React, { Component } from "react";
+
 export default class Testimonials extends Component {
-  // onClick() {
-  //   window.location.href = "https://www.google.ca/";
-  // }
   render() {
     let resumeData = this.props.resumeData;
     return (

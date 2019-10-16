@@ -39,15 +39,13 @@ export default class Resume extends Component {
             </h1>
           </div>
           <div className='nine columns main-col'>
-            <div className='bars'>
+            <div className='bgrid-thirds s-bgrid-thirds'>
               <ul className='skills'>
                 {resumeData.skills &&
                   resumeData.skills.map(item => {
                     return (
-                      <li key={item.skillname}>
-                        <span
-                          className={`bar-expand ${item.skillname.toLowerCase()}`}></span>
-                        <em>{item.skillname}</em>
+                      <li key={item.skillname} className='column'>
+                        <img src={item.imgurl} alt={item.skillname} />
                       </li>
                     );
                   })}

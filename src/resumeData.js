@@ -43,28 +43,38 @@ let resumeData = {
   ],
 
   skills: [
-    // {
-    //   skillname: "HTML5"
-    // },
-    // {
-    //   skillname: "CSS"
-    // },
     {
-      skillname: "Javascript"
+      skillname: "HTML5",
+      imgurl: "images/html5.png"
     },
     {
-      skillname: "REACT"
+      skillname: "CSS3",
+      imgurl: "images/css3.png"
     },
     {
-      skillname: "Node"
+      skillname: "JavaScript",
+      imgurl: "images/JavaScript.png"
+    },
+    {
+      skillname: "REACT",
+      imgurl: "images/react.png"
+    },
+
+    {
+      skillname: "Firebase",
+      imgurl: "images/firebase.png"
+    },
+    {
+      skillname: "Node",
+      imgurl: "images/node.png"
     }
   ],
 
   portfolio: [
     {
-      name: "web app1",
-      imgurl: "images/portfolio/portfolio1.png",
-      url: "https://waaark.com/"
+      name: "WorkOut Record App",
+      imgurl: "images/portfolio/WORKOUT_APP.jpg",
+      url: "https://sad-benz-d15943.netlify.com"
     },
     {
       name: "web app2",
