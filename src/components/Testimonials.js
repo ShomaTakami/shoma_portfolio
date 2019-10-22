@@ -11,26 +11,47 @@ export default class Testimonials extends Component {
               <h1>Check Out Some of My Works.</h1>
             </div>
             <div className='ten columns flex-container'>
-              <div className='flexslider'>
-                <ul className='slides'>
+              <div className='bgrid-thirds'>
+                <ul>
                   {resumeData.portfolio &&
                     resumeData.portfolio.map(item => {
                       return (
-                        <li key={item.name}>
+                        <li
+                          key={item.name}
+                          className='column'
+                          style={{
+                            backgroundColor: "white",
+                            border: "1px solid black",
+                            paddingTop: "10px"
+                          }}>
                           <div className='item-wrap'>
                             <img
                               src={`${item.imgurl}`}
-                              className='item-img'
+                              style={{
+                                width: "30em",
+                                height: "20em",
+                                objectFit: "scale-down"
+                              }}
                               alt={`${item.name}`}
                             />
+                            <h4>{item.name}</h4>
+                            <p>{item.description}</p>
+                            <p style={{ color: "red", fontWeight: "3px" }}>
+                              {item.lan}
+                            </p>
                             <div className='overlay'>
                               <div className='portfolio-item-meta'>
-                                <h3>{item.name}</h3>
                                 <button
                                   onClick={() => {
-                                    window.location.href = `${item.url}`;
+                                    window.open(`${item.url}`);
                                   }}>
                                   View More
+                                </button>
+                                <button
+                                  onClick={() => {
+                                    window.open(`${item.giturl}`);
+                                  }}>
+                                  View code
                                 </button>
                               </div>
                             </div>

@@ -22,7 +22,7 @@ let resumeData = {
     }
   ],
   aboutme:
-    "I was born in Gifu where is countryside in Japan. After I graduated the Highschool, I've been abroad some countries to have feel what differencies between Japan and others. Then, I live in Canada. I love workout, drawing, fashion and traveling. ",
+    "I was born in Gifu where is countryside in Japan. After I graduated the Highschool, I've been abroad to some countries to know that differencies between Japan and others. Then, I live in Canada. I love workout, drawing, fashion and travelling. ",
   address: "Japan",
   website: "https://github.com/ShomaTakami",
   education: [
@@ -31,7 +31,7 @@ let resumeData = {
       specialization: "diploma",
       MonthOfPassing: "Dec",
       YearOfPassing: "2019",
-      Achievements: "Web & App developping"
+      Achievements: "Web & App development"
     }
     // {
     //   UniversityName: "Some University",
@@ -72,30 +72,42 @@ let resumeData = {
 
   portfolio: [
     {
-      name: "WorkOut Record App",
+      name: "WorkOut Record App(Web)",
       imgurl: "images/portfolio/WORKOUT_APP.jpg",
-      url: "https://sad-benz-d15943.netlify.com"
+      url: "https://sad-benz-d15943.netlify.com",
+      giturl: "https://github.com/ShomaTakami/workout_app",
+      description:
+        "You can record how much weight you lift. if check the chart, It shows that how far is your goal you set ",
+      lan: "React.js / React-Redux / Material-ui"
     },
     {
-      name: "web app2",
-      imgurl: "images/portfolio/m-retrocam.jpg",
-      url: "https://waaark.com/"
+      name: "WorkOut Record App(Web)",
+      imgurl: "images/portfolio/WORKOUT_APP.jpg",
+      url: "https://sad-benz-d15943.netlify.com",
+      giturl: "https://github.com/ShomaTakami/workout_app",
+      description:
+        "You can record how much weight you lift. if check the chart, It shows that how far is your goal you set ",
+      lan: "React.js / React-Redux / Material-ui"
     },
     {
-      name: "web app3",
-      imgurl: "images/portfolio/m-retrocam.jpg",
-      url: "https://waaark.com/"
-    },
-    {
-      name: "web app4",
-      imgurl: "images/portfolio/m-retrocam.jpg",
-      url: "https://waaark.com/"
-    },
-    {
-      name: "web app5",
-      imgurl: "images/portfolio/m-retrocam.jpg",
-      url: "https://waaark.com/"
+      name: "WorkOut Record App(Web)",
+      imgurl: "images/portfolio/WORKOUT_APP.jpg",
+      url: "https://sad-benz-d15943.netlify.com",
+      giturl: "https://github.com/ShomaTakami/workout_app",
+      description:
+        "You can record how much weight you lift. if check the chart, It shows that how far is your goal you set ",
+      lan: "React.js / React-Redux / Material-ui"
     }
+    // {
+    //   name: "web app2",
+    //   imgurl: "images/portfolio/m-retrocam.jpg",
+    //   url: "https://waaark.com/"
+    // },
+    // {
+    //   name: "web app3",
+    //   imgurl: "images/portfolio/m-retrocam.jpg",
+    //   url: "https://waaark.com/"
+    // }
   ]
 };
 
