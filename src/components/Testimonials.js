@@ -30,7 +30,7 @@ export default class Testimonials extends Component {
                               style={{
                                 width: "30em",
                                 height: "20em",
-                                objectFit: "scale-down"
+                                objectFit: "cover"
                               }}
                               alt={`${item.name}`}
                             />

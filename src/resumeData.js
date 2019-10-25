@@ -72,31 +72,28 @@ let resumeData = {
 
   portfolio: [
     {
-      name: "WorkOut Record App(Web)",
+      name: "WorkOut Record WebApp",
       imgurl: "images/portfolio/WORKOUT_APP.jpg",
       url: "https://sad-benz-d15943.netlify.com",
       giturl: "https://github.com/ShomaTakami/workout_app",
-      description:
-        "You can record how much weight you lift. if check the chart, It shows that how far is your goal you set ",
+      description: "You can record how much weight you lift. ",
       lan: "React.js / React-Redux / Material-ui"
     },
     {
-      name: "WorkOut Record App(Web)",
-      imgurl: "images/portfolio/WORKOUT_APP.jpg",
-      url: "https://sad-benz-d15943.netlify.com",
-      giturl: "https://github.com/ShomaTakami/workout_app",
-      description:
-        "You can record how much weight you lift. if check the chart, It shows that how far is your goal you set ",
-      lan: "React.js / React-Redux / Material-ui"
+      name: "Weather WebApp",
+      imgurl: "images/portfolio/weatherApp_pic.png",
+      url: "https://stoic-einstein-4cc4bc.netlify.com/",
+      giturl: "https://github.com/ShomaTakami/weather",
+      description: "You can search the weather in you place or anywhere. ",
+      lan: "React.js / Bootstrap / weather API"
     },
     {
-      name: "WorkOut Record App(Web)",
-      imgurl: "images/portfolio/WORKOUT_APP.jpg",
-      url: "https://sad-benz-d15943.netlify.com",
-      giturl: "https://github.com/ShomaTakami/workout_app",
-      description:
-        "You can record how much weight you lift. if check the chart, It shows that how far is your goal you set ",
-      lan: "React.js / React-Redux / Material-ui"
+      name: "Recipe WebApp",
+      imgurl: "images/portfolio/recipe-pic.png",
+      url: "https://gallant-aryabhata-9b2e51.netlify.com/",
+      giturl: "https://github.com/ShomaTakami/recipe-app",
+      description: "You can search recipes what you would lole to cook. ",
+      lan: "React.js / Bootstrap / Food API"
     }
     // {
     //   name: "web app2",
