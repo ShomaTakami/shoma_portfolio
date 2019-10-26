@@ -35,7 +35,9 @@ export default class Testimonials extends Component {
                               alt={`${item.name}`}
                             />
                             <h4>{item.name}</h4>
-                            <p>{item.description}</p>
+                            <p style={{ padding: "20px" }}>
+                              {item.description}
+                            </p>
                             <p style={{ color: "red", fontWeight: "3px" }}>
                               {item.lan}
                             </p>
