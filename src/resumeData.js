@@ -76,7 +76,8 @@ let resumeData = {
       imgurl: "images/portfolio/WORKOUT_APP.jpg",
       url: "https://sad-benz-d15943.netlify.com",
       giturl: "https://github.com/ShomaTakami/workout_app",
-      description: "You can record how much weight you lift. ",
+      description:
+        "You can record how much weight you lift. It motivate you to hit the gym.",
       lan: "React.js / React-Redux / Material-ui"
     },
     {
