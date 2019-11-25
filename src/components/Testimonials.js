@@ -10,19 +10,18 @@ export default class Testimonials extends Component {
             <div className="two columns header-col">
               <h1>Check Out Some of My Works.</h1>
             </div>
-            <div className="ten columns flex-container">
-              <div className="bgrid-thirds s-bgrid-halves ">
+            <div className="nine columns flex-container">
+              <div className="bgrid-thirds s-bgrid-halves">
                 <ul>
                   {resumeData.portfolio &&
                     resumeData.portfolio.map(item => {
                       return (
                         <li
                           key={item.name}
-                          className="column row"
+                          className=""
                           style={{
-                            backgroundColor: "white",
-                            border: "1px solid black",
-                            paddingTop: "10px",
+                            backgroundColor: "rgba(20,24,25,0.7)",
+                            padding: "10px",
                             marginTop: "5px"
                           }}
                         >
@@ -30,19 +29,27 @@ export default class Testimonials extends Component {
                             <img
                               src={`${item.imgurl}`}
                               style={{
-                                width: "30em",
-                                height: "20em",
+                                width: "65rem",
+                                height: "35rem",
                                 objectFit: "cover"
                               }}
                               alt={`${item.name}`}
                             />
-                            <h4>{item.name}</h4>
-                            <p style={{ padding: "20px" }}>
+                            <h2
+                              style={{
+                                color: "white",
+                                fontSize: "50px",
+                                margin: "5rem"
+                              }}
+                            >
+                              {item.name}
+                            </h2>
+                            <h3 style={{ padding: "20px" }}>
                               {item.description}
-                            </p>
-                            <p style={{ color: "red", fontWeight: "3px" }}>
+                            </h3>
+                            <h3 style={{ color: "red", fontWeight: "3px" }}>
                               {item.lan}
-                            </p>
+                            </h3>
                             <div className="overlay">
                               <div className="portfolio-item-meta">
                                 <button

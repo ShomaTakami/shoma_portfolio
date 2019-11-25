@@ -94,6 +94,14 @@ let resumeData = {
       giturl: "https://github.com/ShomaTakami/recipe-app",
       description: "You can search recipes what you would lole to cook. ",
       lan: "React.js / Bootstrap / Food API"
+    },
+    {
+      name: "Artwork Website",
+      imgurl: "images/portfolio/recipe-pic.png",
+      url: "https://unruffled-snyder-2db82c.netlify.com/",
+      giturl: "https://github.com/ShomaTakami/Art_website",
+      description: "check my artworks. UI/UX design.",
+      lan: "HTML5 / CSS3 / jQuery / JS"
     }
   ]
 };
