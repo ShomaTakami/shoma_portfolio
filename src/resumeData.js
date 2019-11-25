@@ -76,8 +76,7 @@ let resumeData = {
       imgurl: "images/portfolio/WORKOUT_APP.jpg",
       url: "https://sad-benz-d15943.netlify.com",
       giturl: "https://github.com/ShomaTakami/workout_app",
-      description:
-        "You can record how much weight you lift. It motivate you to hit the gym.",
+      description: "You can record how much weight you lift.",
       lan: "React.js / React-Redux / Material-ui"
     },
     {
@@ -96,16 +95,6 @@ let resumeData = {
       description: "You can search recipes what you would lole to cook. ",
       lan: "React.js / Bootstrap / Food API"
     }
-    // {
-    //   name: "web app2",
-    //   imgurl: "images/portfolio/m-retrocam.jpg",
-    //   url: "https://waaark.com/"
-    // },
-    // {
-    //   name: "web app3",
-    //   imgurl: "images/portfolio/m-retrocam.jpg",
-    //   url: "https://waaark.com/"
-    // }
   ]
 };
 

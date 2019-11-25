@@ -4,27 +4,29 @@ export default class Testimonials extends Component {
   render() {
     let resumeData = this.props.resumeData;
     return (
-      <section id='testimonials'>
-        <div className='text-container'>
-          <div className='row work-width'>
-            <div className='two columns header-col'>
+      <section id="testimonials">
+        <div className="text-container">
+          <div className="row work-width">
+            <div className="two columns header-col">
               <h1>Check Out Some of My Works.</h1>
             </div>
-            <div className='ten columns flex-container'>
-              <div className='bgrid-thirds'>
+            <div className="ten columns flex-container">
+              <div className="bgrid-thirds s-bgrid-halves ">
                 <ul>
                   {resumeData.portfolio &&
                     resumeData.portfolio.map(item => {
                       return (
                         <li
                           key={item.name}
-                          className='column'
+                          className="column row"
                           style={{
                             backgroundColor: "white",
                             border: "1px solid black",
-                            paddingTop: "10px"
-                          }}>
-                          <div className='item-wrap'>
+                            paddingTop: "10px",
+                            marginTop: "5px"
+                          }}
+                        >
+                          <div className="item-wrap">
                             <img
                               src={`${item.imgurl}`}
                               style={{
@@ -41,18 +43,20 @@ export default class Testimonials extends Component {
                             <p style={{ color: "red", fontWeight: "3px" }}>
                               {item.lan}
                             </p>
-                            <div className='overlay'>
-                              <div className='portfolio-item-meta'>
+                            <div className="overlay">
+                              <div className="portfolio-item-meta">
                                 <button
                                   onClick={() => {
                                     window.open(`${item.url}`);
-                                  }}>
+                                  }}
+                                >
                                   View More
                                 </button>
                                 <button
                                   onClick={() => {
                                     window.open(`${item.giturl}`);
-                                  }}>
+                                  }}
+                                >
                                   View code
                                 </button>
                               </div>
