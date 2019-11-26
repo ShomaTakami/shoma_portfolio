@@ -97,7 +97,7 @@ let resumeData = {
     },
     {
       name: "Artwork Website",
-      imgurl: "images/portfolio/recipe-pic.png",
+      imgurl: "images/portfolio/Art_Page.png",
       url: "https://unruffled-snyder-2db82c.netlify.com/",
       giturl: "https://github.com/ShomaTakami/Art_website",
       description: "check my artworks. UI/UX design.",

@@ -29,21 +29,23 @@ export default class Testimonials extends Component {
                             <img
                               src={`${item.imgurl}`}
                               style={{
-                                width: "65rem",
-                                height: "35rem",
+                                width: "100%",
+                                height: "100%",
                                 objectFit: "cover"
                               }}
                               alt={`${item.name}`}
                             />
-                            <h2
+                            <h3
                               style={{
                                 color: "white",
                                 fontSize: "50px",
-                                margin: "5rem"
+                                margin: "5rem",
+                                lineHeight: "70px",
+                                textAlign: "center"
                               }}
                             >
                               {item.name}
-                            </h2>
+                            </h3>
                             <h3 style={{ padding: "20px" }}>
                               {item.description}
                             </h3>
