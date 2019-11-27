@@ -72,12 +72,20 @@ let resumeData = {
 
   portfolio: [
     {
-      name: "WorkOut Record WebApp",
-      imgurl: "images/portfolio/WORKOUT_APP.jpg",
-      url: "https://sad-benz-d15943.netlify.com",
-      giturl: "https://github.com/ShomaTakami/workout_app",
-      description: "You can record how much weight you lift.",
-      lan: "React.js / React-Redux / Material-ui"
+      name: "Artwork Website",
+      imgurl: "images/portfolio/Art_Page.png",
+      url: "https://unruffled-snyder-2db82c.netlify.com/",
+      giturl: "https://github.com/ShomaTakami/Art_website",
+      description: "Check my artworks. UI/UX design.",
+      lan: "HTML5 / CSS3 / jQuery / JS"
+    },
+    {
+      name: "Photography Works",
+      imgurl: "images/portfolio/Photography.png",
+      url: "https://quirky-heyrovsky-f12970.netlify.com/",
+      giturl: "https://github.com/ShomaTakami/photography",
+      description: "Photography works. Single Page",
+      lan: "HTML5 / CSS3 / jQuery / JS"
     },
     {
       name: "Weather WebApp",
@@ -88,20 +96,20 @@ let resumeData = {
       lan: "React.js / Bootstrap / weather API"
     },
     {
+      name: "WorkOut Record WebApp",
+      imgurl: "images/portfolio/WORKOUT_APP.jpg",
+      url: "https://sad-benz-d15943.netlify.com",
+      giturl: "https://github.com/ShomaTakami/workout_app",
+      description: "You can record how much weight you lift.",
+      lan: "React.js / React-Redux / Material-ui"
+    },
+    {
       name: "Recipe WebApp",
       imgurl: "images/portfolio/recipe-pic.png",
       url: "https://gallant-aryabhata-9b2e51.netlify.com/",
       giturl: "https://github.com/ShomaTakami/recipe-app",
       description: "You can search recipes what you would lole to cook. ",
       lan: "React.js / Bootstrap / Food API"
-    },
-    {
-      name: "Artwork Website",
-      imgurl: "images/portfolio/Art_Page.png",
-      url: "https://unruffled-snyder-2db82c.netlify.com/",
-      giturl: "https://github.com/ShomaTakami/Art_website",
-      description: "check my artworks. UI/UX design.",
-      lan: "HTML5 / CSS3 / jQuery / JS"
     }
   ]
 };
