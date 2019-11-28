@@ -10,7 +10,7 @@ export default class Testimonials extends Component {
             <div className="two columns header-col">
               <h1>Check Out Some of My Works.</h1>
             </div>
-            <div className="nine columns flex-container">
+            <div className="nine columns column flex-container">
               <div className="bgrid-thirds s-bgrid-halves">
                 <ul>
                   {resumeData.portfolio &&

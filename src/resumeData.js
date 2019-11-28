@@ -80,7 +80,7 @@ let resumeData = {
       lan: "HTML5 / CSS3 / jQuery / JS"
     },
     {
-      name: "Photography Works",
+      name: "Photo Works",
       imgurl: "images/portfolio/Photography.png",
       url: "https://quirky-heyrovsky-f12970.netlify.com/",
       giturl: "https://github.com/ShomaTakami/photography",
