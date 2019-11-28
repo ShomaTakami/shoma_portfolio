@@ -4,7 +4,7 @@ export default class Testimonials extends Component {
   render() {
     let resumeData = this.props.resumeData;
     return (
-      <section id="testimonials">
+      <section id="testimonials" className="row">
         <div className="text-container">
           <div className="row work-width">
             <div className="two columns header-col">
