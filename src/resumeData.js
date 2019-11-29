@@ -96,7 +96,7 @@ let resumeData = {
       lan: "React.js / Bootstrap / weather API"
     },
     {
-      name: "WorkOut Record WebApp",
+      name: "WorkOut Record",
       imgurl: "images/portfolio/WORKOUT_APP.jpg",
       url: "https://sad-benz-d15943.netlify.com",
       giturl: "https://github.com/ShomaTakami/workout_app",

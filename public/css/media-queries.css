@@ -16,6 +16,21 @@
     letter-spacing: -1px;
     margin: 0 auto 12px auto;
   }
+
+  .list-item {
+    margin: 10px auto !important;
+    height: 70vh;
+    padding-top: 20px !important;
+  }
+  .item-wrap > img {
+    width: 90% !important;
+    height: 400px !important;
+  }
+  .list-item .item-title {
+    font-size: 20px !important;
+    line-height: 2 !important;
+    margin: 10px !important;
+  }
 }
 
 /* screenwidth less than 900px
@@ -78,6 +93,19 @@
     line-height: 46px;
   }
 
+  .list-item {
+    margin: 10px auto !important;
+    height: 70vh;
+  }
+  .item-wrap > img {
+    width: 90% !important;
+    height: 400px !important;
+  }
+  .list-item .item-title {
+    font-size: 20px !important;
+    line-height: 2 !important;
+    margin: 10px !important;
+  }
   /* Call to Action Section
    ------------------------------------------------------------------- */
   #call-to-action .header-col h1:before {
@@ -393,6 +421,10 @@
 
   /* header styles
    -------------------------------------------------------------------- */
+  header {
+    height: 75vh !important;
+    width: 100vw;
+  }
   header .banner {
     padding-top: 24px;
   }
@@ -413,6 +445,20 @@
     margin: 0 6px;
   }
 
+  .list-item {
+    margin: 10px 20px;
+    height: 60vh;
+  }
+  .item-wrap > img {
+    width: 300px !important;
+    height: 250px !important;
+  }
+  .list-item .item-title {
+    font-size: 20px !important;
+    line-height: 2 !important;
+    margin: 10px !important;
+  }
+
   /* footer
    ------------------------------------------------------------------------ */
 
@@ -422,5 +468,20 @@
   }
   footer .social-links li {
     margin-left: 14px;
+  }
+}
+
+@media only screen and (max-width: 321px) {
+  .list-item {
+    margin: 5px 10px;
+    height: 750px;
+  }
+  .item-wrap > img {
+    width: 250px !important;
+    height: 200px !important;
+  }
+  .list-item .item-title {
+    font-size: 15px !important;
+    margin: 6px !important;
   }
 }

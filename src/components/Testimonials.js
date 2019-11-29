@@ -4,9 +4,9 @@ export default class Testimonials extends Component {
   render() {
     let resumeData = this.props.resumeData;
     return (
-      <section id="testimonials" className="row">
+      <section id="testimonials">
         <div className="text-container">
-          <div className="row work-width">
+          <div className="work-width">
             <div className="two columns header-col">
               <h1>Check Out Some of My Works.</h1>
             </div>
@@ -16,15 +16,7 @@ export default class Testimonials extends Component {
                   {resumeData.portfolio &&
                     resumeData.portfolio.map(item => {
                       return (
-                        <li
-                          key={item.name}
-                          className=""
-                          style={{
-                            backgroundColor: "rgba(20,24,25,0.7)",
-                            padding: "10px",
-                            marginTop: "5px"
-                          }}
-                        >
+                        <li key={item.name} className="list-item">
                           <div className="item-wrap">
                             <img
                               src={`${item.imgurl}`}
@@ -36,6 +28,7 @@ export default class Testimonials extends Component {
                               alt={`${item.name}`}
                             />
                             <h3
+                              className="item-title"
                               style={{
                                 color: "white",
                                 fontSize: "50px",

@@ -774,7 +774,7 @@ input[type="checkbox"] {
 .work-width {
   width: 100%;
   /* max-width: 1020px; */
-  max-width: 85vw;
+  /* max-width: 85vw; */
   margin: 0 20% 0 0;
 }
 /* fixed width for IE8 */
@@ -991,6 +991,12 @@ input[type="checkbox"] {
   float: left;
 }
 
+.list-item {
+  background-color: rgba(20, 24, 25, 0.7);
+  padding: 10px;
+  margin: 4rem 35rem;
+  position: relative;
+}
 /* Left clearing for block grid columns - columns that changes width in
 different screen sizes. Allows columns with different heights to align
 properly.
