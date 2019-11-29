@@ -358,7 +358,9 @@ blockquote cite a:visited {
 		</blockquote>
 	 </aside>
 /*
-/* --------------------------------------------------------------------- */
+/* 
+--------------------------------------------------------------------- */
+
 .pull-quote {
   position: relative;
   padding: 18px 30px 18px 0px;
@@ -996,7 +998,24 @@ input[type="checkbox"] {
   padding: 10px;
   margin: 4rem 35rem;
   position: relative;
+  width: 80%;
+  height: 70%;
 }
+.item-wrap {
+  -webkit-box-sizing: border-box; /*webkit系*/
+  -moz-box-sizing: border-box; /*Firefox*/
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  height: 100%;
+}
+.overlay {
+  padding: 0;
+  -webkit-box-sizing: border-box; /*webkit系*/
+  -moz-box-sizing: border-box; /*Firefox*/
+  box-sizing: border-box;
+}
+
 /* Left clearing for block grid columns - columns that changes width in
 different screen sizes. Allows columns with different heights to align
 properly.
