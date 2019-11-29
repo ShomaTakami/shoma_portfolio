@@ -10,7 +10,7 @@ export default class Testimonials extends Component {
             <div className="two columns header-col">
               <h1>Check Out Some of My Works.</h1>
             </div>
-            <div className="nine columns column flex-container">
+            <div className="flex-container">
               <div className="bgrid-thirds s-bgrid-halves">
                 <ul>
                   {resumeData.portfolio &&
@@ -20,31 +20,12 @@ export default class Testimonials extends Component {
                           <div className="item-wrap">
                             <img
                               src={`${item.imgurl}`}
-                              style={{
-                                width: "100%",
-                                height: "100%",
-                                objectFit: "cover"
-                              }}
+                              className="item-img"
                               alt={`${item.name}`}
                             />
-                            <h3
-                              className="item-title"
-                              style={{
-                                color: "white",
-                                fontSize: "50px",
-                                margin: "5rem",
-                                lineHeight: "70px",
-                                textAlign: "center"
-                              }}
-                            >
-                              {item.name}
-                            </h3>
-                            <h3 style={{ padding: "20px" }}>
-                              {item.description}
-                            </h3>
-                            <h3 style={{ color: "red", fontWeight: "3px" }}>
-                              {item.lan}
-                            </h3>
+                            {/* <h3 className="item-title">{item.name}</h3>
+                            <h3 className="item-des">{item.description}</h3>
+                            <h3 className="item-lan">{item.lan}</h3> */}
                             <div className="overlay">
                               <div className="portfolio-item-meta">
                                 <button

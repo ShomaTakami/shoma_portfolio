@@ -89,7 +89,7 @@ let resumeData = {
     },
     {
       name: "Weather WebApp",
-      imgurl: "images/portfolio/weatherApp_pic.png",
+      imgurl: "images/portfolio/weather.png",
       url: "https://stoic-einstein-4cc4bc.netlify.com/",
       giturl: "https://github.com/ShomaTakami/weather",
       description: "You can search the weather in you place or anywhere. ",
@@ -97,7 +97,7 @@ let resumeData = {
     },
     {
       name: "WorkOut Record",
-      imgurl: "images/portfolio/WORKOUT_APP.jpg",
+      imgurl: "images/portfolio/workout.png",
       url: "https://sad-benz-d15943.netlify.com",
       giturl: "https://github.com/ShomaTakami/workout_app",
       description: "You can record how much weight you lift.",
