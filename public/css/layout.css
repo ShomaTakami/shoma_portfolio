@@ -344,7 +344,7 @@ ul#nav li.current a {
   -moz-animation: css 2s ease;
   -webkit-animation: css 2s ease;
 } */
-.javascript {
+/* .javascript {
   width: 70%;
   -moz-animation: javascript 2s ease;
   -webkit-animation: javascript 2s ease;
@@ -358,7 +358,7 @@ ul#nav li.current a {
   width: 35%;
   -moz-animation: node 2s ease;
   -webkit-animation: node 2s ease;
-}
+} */
 
 /* @-moz-keyframes html5 {
   0% {
@@ -376,7 +376,7 @@ ul#nav li.current a {
     width: 90%;
   }
 } */
-@-moz-keyframes javascript {
+/* @-moz-keyframes javascript {
   0% {
     width: 0px;
   }
@@ -399,7 +399,7 @@ ul#nav li.current a {
   100% {
     width: 35%;
   }
-}
+} */
 
 /* @-webkit-keyframes html5 {
   0% {
@@ -417,7 +417,7 @@ ul#nav li.current a {
     width: 90%;
   }
 } */
-@-webkit-keyframes javascript {
+/* @-webkit-keyframes javascript {
   0% {
     width: 0px;
   }
@@ -440,7 +440,7 @@ ul#nav li.current a {
   100% {
     width: 35%;
   }
-}
+} */
 
 /* ------------------------------------------------------------------ */
 /* f. Call To Action Section
