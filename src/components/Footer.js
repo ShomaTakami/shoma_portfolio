@@ -4,14 +4,18 @@ export default class Footer extends Component {
     let resumeData = this.props.resumeData;
     return (
       <footer>
-        <div className='row'>
-          <div className='twelve columns'>
-            <ul className='social-links'>
+        <div className="row">
+          <div className="twelve columns">
+            <ul className="social-links">
               {resumeData.socialLinks &&
                 resumeData.socialLinks.map(item => {
                   return (
                     <li key={item.className}>
-                      <a href={item.url}>
+                      <a
+                        href={item.url}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
                         <i className={item.className} />
                       </a>
                     </li>
@@ -19,9 +23,9 @@ export default class Footer extends Component {
                 })}
             </ul>
           </div>
-          <div id='go-top'>
-            <a className='smoothscroll' title='Back to Top' href='#home'>
-              <i className='icon-up-open' />
+          <div id="go-top">
+            <a className="smoothscroll" title="Back to Top" href="#home">
+              <i className="icon-up-open" />
             </a>
           </div>
         </div>
