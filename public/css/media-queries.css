@@ -321,6 +321,19 @@
 
   /* Testimonials Section
    ----------------------------------------------------------------------- */
+  .list-item {
+    margin: 10px 20px;
+    height: 85vh;
+  }
+  .item-wrap > img {
+    width: 300px !important;
+    height: 250px !important;
+  }
+  .list-item .item-title {
+    font-size: 20px !important;
+    line-height: 2 !important;
+    margin: 10px !important;
+  }
   #testimonials .text-container {
     text-align: center;
   }
@@ -449,14 +462,30 @@
     margin: 10px 20px;
     height: 60vh;
   }
+  .item-wrap {
+    width: 100%;
+    height: 60vh;
+  }
   .item-wrap > img {
     width: 300px !important;
-    height: 250px !important;
+    height: 150px !important;
   }
-  .list-item .item-title {
-    font-size: 20px !important;
+  .list-item h3 {
+    font-size: 12px !important;
     line-height: 2 !important;
-    margin: 10px !important;
+    margin: 1px !important;
+  }
+  .overlay {
+    height: 30%;
+  }
+  .portfolio-item-meta {
+    padding: 8px !important;
+  }
+  .portfolio-item-meta > button {
+    height: 35px !important;
+    line-height: 10px;
+    font-size: 10px/20px !important;
+    margin: 5px 0 !important;
   }
 
   /* footer
@@ -474,7 +503,7 @@
 @media only screen and (max-width: 321px) {
   .list-item {
     margin: 5px 10px;
-    height: 750px;
+    height: 500px;
   }
   .item-wrap > img {
     width: 250px !important;
