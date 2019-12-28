@@ -36,14 +36,14 @@ header .banner-text {
   width: 100%;
 }
 header .banner-text h1 {
-  font: 90px/1.1em "opensans-bold", sans-serif;
+  font: 15rem "opensans-bold", sans-serif !important;
   color: #fff;
   letter-spacing: -2px;
   margin: 0 auto 18px auto;
   text-shadow: 0px 1px 3px rgba(0, 0, 0, 0.8);
 }
 header .banner-text h3 {
-  font: 18px/1.9em "librebaskerville-regular", serif;
+  font: 3rem "librebaskerville-regular", serif;
   color: #a8a8a8;
   margin: 0 auto;
   width: 70%;
@@ -64,7 +64,7 @@ header .banner-text hr {
 header .social {
   margin: 24px 0;
   padding: 0;
-  font-size: 30px;
+  font-size: 5rem;
   text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.8);
 }
 header .social li {
@@ -112,6 +112,7 @@ header .scrolldown a:hover {
   padding: 0;
   border: none;
   outline: none;
+  font-size: 2.4rem;
 }
 
 /* nav-wrap */
@@ -192,18 +193,19 @@ ul#nav li.current a {
 }
 
 #about h2 {
-  font: 22px/30px "opensans-bold", sans-serif;
+  font: 3.1rem "opensans-bold", sans-serif;
   color: #fff;
   margin-bottom: 12px;
 }
 #about p {
   line-height: 30px;
   color: #c5c5c5;
+  font-size: 2.6rem;
 }
 #about .profile-pic {
   position: relative;
-  width: 120px;
-  height: 120px;
+  width: 21rem;
+  height: 21rem;
   border-radius: 100%;
 }
 #about .contact-details {
@@ -250,7 +252,7 @@ ul#nav li.current a {
 }
 
 #resume h1 {
-  font: 18px/24px "opensans-bold", sans-serif;
+  font: 3.1rem "opensans-bold", sans-serif;
   text-transform: uppercase;
   letter-spacing: 1px;
 }
@@ -259,7 +261,7 @@ ul#nav li.current a {
   padding-bottom: 6px;
 }
 #resume h3 {
-  font: 25px/30px "opensans-bold", sans-serif;
+  font: 3.1rem "opensans-bold", sans-serif;
 }
 
 #resume .header-col {
@@ -276,7 +278,7 @@ ul#nav li.current a {
   border-bottom: 1px solid #e8e8e8;
 }
 #resume .info {
-  font: 16px/24px "librebaskerville-italic", serif;
+  font: 2.6rem "librebaskerville-italic", serif;
   color: #6e7881;
   margin-bottom: 18px;
   margin-top: 9px;
@@ -286,7 +288,7 @@ ul#nav li.current a {
   margin-left: 5px;
 }
 #resume .date {
-  font: 15px/24px "opensans-regular", sans-serif;
+  font: 2.4rem "opensans-regular", sans-serif;
   margin-top: 6px;
 }
 
@@ -522,7 +524,11 @@ ul#nav li.current a {
   padding-bottom: 66px;
 }
 #testimonials h1 {
-  font: 18px/24px "opensans-bold", sans-serif;
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  padding-left: 96px;
+  font: 3.1rem "opensans-bold", sans-serif;
   text-transform: uppercase;
   letter-spacing: 3px;
   color: #fff;
@@ -656,8 +662,8 @@ ul#nav li.current a {
 
 #contact {
   background: #191919;
-  padding-top: 80px;
-  padding-bottom: 102px;
+  padding-top: 1.4rem;
+  padding-bottom: 8rem;
   /* color: white; */
   overflow: hidden;
 }
@@ -674,7 +680,7 @@ ul#nav li.current a {
   color: #11abb0;
 }
 #contact h1 {
-  font: 18px/24px "opensans-bold", sans-serif;
+  font: 3.1rem "opensans-bold", sans-serif;
   text-transform: uppercase;
   letter-spacing: 1px;
 }
@@ -682,6 +688,9 @@ ul#nav li.current a {
   border-bottom: 3px solid #11abb0;
   padding-bottom: 6px;
   color: white;
+}
+#contact h4 {
+  font-size: 2.6rem;
 }
 
 #contact .eigth {
@@ -716,7 +725,7 @@ footer a:focus {
 footer .social-links {
   margin: 18px 0 30px 0;
   padding: 0;
-  font-size: 30px;
+  font-size: 5.5rem;
 }
 footer .social-links li {
   display: inline-block;
