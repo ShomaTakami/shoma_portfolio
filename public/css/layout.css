@@ -1,3 +1,6 @@
+* {
+  box-sizing: border-box;
+}
 body {
   background: #0f0f0f;
 }
@@ -37,7 +40,7 @@ header .banner-text {
   width: 100%;
 }
 header .banner-text h1 {
-  font: 15rem "opensans-bold", sans-serif !important;
+  font: 10rem "opensans-bold", sans-serif !important;
   color: #fff;
   letter-spacing: -2px;
   margin: 0 auto 18px auto;
