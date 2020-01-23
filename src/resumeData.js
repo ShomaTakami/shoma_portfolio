@@ -74,7 +74,7 @@ let resumeData = {
     {
       name: "Photo Works",
       imgurl: "images/portfolio/Photography.png",
-      url: "https://quirky-heyrovsky-f12970.netlify.com/",
+      url: "https://shomatakami.ca/photography",
       giturl: "https://github.com/ShomaTakami/photography",
       description: "Photography works. Single Page",
       lan: "HTML5 / CSS3 / jQuery / JS"
@@ -82,7 +82,7 @@ let resumeData = {
     {
       name: "Artwork Website",
       imgurl: "images/portfolio/Art_Page.png",
-      url: "https://unruffled-snyder-2db82c.netlify.com/",
+      url: "https://shomatakami.ca/art_works",
       giturl: "https://github.com/ShomaTakami/Art_website",
       description: "Check my artworks. UI/UX design.",
       lan: "HTML5 / CSS3 / jQuery / JS"
