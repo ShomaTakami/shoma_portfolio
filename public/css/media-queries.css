@@ -366,7 +366,7 @@
     text-shadow: 0px 1px 3px rgba(0, 0, 0, 1);
   }
   #contact h1 span {
-    display: block;
+    display: inline-block;
   }
   #contact .header-col {
     padding-top: 0;
@@ -430,11 +430,11 @@
     padding-top: 24px;
   }
   header .banner-text h1 {
-    font: 40px/1.1em "opensans-bold", sans-serif;
+    font: 4em "opensans-bold", sans-serif !important;
     margin: 0 auto 24px auto;
   }
   header .banner-text h3 {
-    font: 14px/1.9em "librebaskerville-regular", sans-serif;
+    font: 1.3em "librebaskerville-regular", sans-serif;
     width: 90%;
   }
 
@@ -454,6 +454,30 @@
     line-height: 10px;
     font-size: 1.7rem !important;
     margin: 5px 0 !important;
+  }
+  #about h2,
+  #contact h1 {
+    font: 16px/24px "opensans-bold", sans-serif;
+    text-align: center;
+    padding-bottom: 10px;
+  }
+
+  #about main-col {
+    padding-top: 0;
+    margin-bottom: 48px;
+  }
+  #about h2 span,
+  #contact h1 span {
+    border-bottom: 3px solid #11abb0;
+    padding-bottom: 6px;
+  }
+
+  #about p {
+    margin: 0 auto;
+    text-align: center;
+  }
+  #about button {
+    margin: 10px auto;
   }
 
   /* footer

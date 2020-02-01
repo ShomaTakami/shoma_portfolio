@@ -14,23 +14,23 @@ export default class About extends Component {
           </div>
 
           <div className="nine columns main-col">
-            <h2>About Me</h2>
-            <p>{resumeData.aboutme}</p>
-            <a
-              href="https://uploads.knightlab.com/storymapjs/170019ebe483a0e96e5be384e66cef02/shomas/draft.html"
-              target="_blank"
-              rel="noopener noreferrer"
-              style={{
-                fontSize: "2em",
-                border: "1px white solid",
-                borderRadius: "5px",
-                padding: "2px"
-              }}
-            >
-              Open Storymap
-            </a>
+            <h2>
+              <span>About Me</span>
+            </h2>
+            <p>
+              {resumeData.aboutme}{" "}
+              <button>
+                <a
+                  href="https://uploads.knightlab.com/storymapjs/170019ebe483a0e96e5be384e66cef02/shomas/draft.html"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Open Storymap
+                </a>
+              </button>
+            </p>
 
-            <div className="row">
+            {/* <div className="row">
               <div className="columns contact-details">
                 <h2>Contact Details</h2>
                 <p className="address">
@@ -43,11 +43,11 @@ export default class About extends Component {
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    <span>{resumeData.website}</span>
+                    <span></span>
                   </a>
                 </p>
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
       </section>

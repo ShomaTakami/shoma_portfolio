@@ -40,7 +40,7 @@ export default class Testimonials extends Component {
                                     window.open(`${item.giturl}`);
                                   }}
                                 >
-                                  View code
+                                  Github
                                 </button>
                               </div>
                             </div>
