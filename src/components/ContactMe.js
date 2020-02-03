@@ -24,7 +24,7 @@ export default class ContactMe extends Component {
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    Mail : {resumeData.mail}
+                    {resumeData.mail}
                   </a>
                 </h1>
               </div>
