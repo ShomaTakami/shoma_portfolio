@@ -8,7 +8,9 @@ export default class Testimonials extends Component {
         <div className="text-container">
           <div className="work-width">
             <div className="two columns header-col">
-              <h1>Check Out Some of My Works.</h1>
+              <h1>
+                <span>Works</span>
+              </h1>
             </div>
             <div className="flex-container">
               <div className="bgrid-thirds s-bgrid-halves">
@@ -33,7 +35,7 @@ export default class Testimonials extends Component {
                                     window.open(`${item.url}`);
                                   }}
                                 >
-                                  View More
+                                  View
                                 </button>
                                 <button
                                   onClick={() => {

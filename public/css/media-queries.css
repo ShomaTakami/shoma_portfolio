@@ -260,7 +260,8 @@
 
   /* Resume Section
    --------------------------------------------------------------------- */
-  #resume .header-col {
+  #resume .header-col,
+  #testimonials .header-col {
     padding-top: 0;
     margin-bottom: 48px;
     text-align: center;
@@ -359,7 +360,8 @@
   #contact .section-head {
     margin-bottom: 12px;
   }
-  #contact .section-head h1 {
+  #contact .section-head h1,
+  #testimonials .section-head h1 {
     font: 16px/24px "opensans-bold", sans-serif;
     text-align: center;
     margin-bottom: 30px;
@@ -456,7 +458,8 @@
     margin: 5px 0 !important;
   }
   #about h2,
-  #contact h1 {
+  #contact h1,
+  #testimonials h1 {
     font: 16px/24px "opensans-bold", sans-serif;
     text-align: center;
     padding-bottom: 10px;
@@ -467,7 +470,8 @@
     margin-bottom: 48px;
   }
   #about h2 span,
-  #contact h1 span {
+  #contact h1 span,
+  #testimonials h1 span {
     border-bottom: 3px solid #11abb0;
     padding-bottom: 6px;
   }
@@ -477,7 +481,7 @@
     text-align: center;
   }
   #about button {
-    margin: 10px auto;
+    margin: 30px auto 0 auto;
   }
 
   /* footer
@@ -493,9 +497,23 @@
 }
 
 @media only screen and (max-width: 321px) {
+  #testimonials {
+    background: rgba(20, 20, 20, 0.3) url(../images/testimonials-bg.jpg)
+      no-repeat center center;
+    background-size: cover !important;
+    -webkit-background-size: cover !important;
+    background-attachment: fixed;
+    text-align: center;
+    position: relative;
+    min-height: 200px;
+    width: 100%;
+    overflow: hidden;
+  }
   .item-wrap > img {
-    width: 250px !important;
-    height: 200px !important;
+    border: 2px solid black;
+    padding: 25px;
+    background-repeat: no-repeat;
+    background-size: auto;
   }
   .list-item .item-title {
     font-size: 15px !important;
