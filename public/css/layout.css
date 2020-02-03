@@ -672,9 +672,9 @@ ul#nav li.current a {
   /* color: white; */
   overflow: hidden;
 }
-#contact .section-head {
+/* #contact .section-head {
   margin-bottom: 30px;
-}
+} */
 
 #contact a,
 #contact a:visited {
