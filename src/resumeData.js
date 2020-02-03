@@ -45,28 +45,39 @@ let resumeData = {
   skills: [
     {
       skillname: "HTML5",
-      imgurl: "images/html5.png"
+      imgurl: "images/html5_img.png"
     },
     {
       skillname: "CSS3",
-      imgurl: "images/css3.png"
+      imgurl: "images/css3_img.png"
+    },
+    {
+      skillname: "Bootstrap",
+      imgurl: "images/bootstrap_img.png"
     },
     {
       skillname: "JavaScript",
-      imgurl: "images/JavaScript.png"
+      imgurl: "images/js_img.png"
+    },
+    {
+      skillname: "jQuery",
+      imgurl: "images/jquery_img.png"
     },
     {
       skillname: "REACT",
-      imgurl: "images/react.png"
+      imgurl: "images/react_img.png"
     },
-
     {
-      skillname: "Firebase",
-      imgurl: "images/firebase.png"
+      skillname: "MongoDB",
+      imgurl: "images/mongodb_img.png"
     },
     {
       skillname: "Node",
-      imgurl: "images/node.png"
+      imgurl: "images/nodejs_img.png"
+    },
+    {
+      skillname: "Git",
+      imgurl: "images/git_img.png"
     }
   ],
 
