@@ -667,7 +667,7 @@ ul#nav li.current a {
 
 #contact {
   background: #191919;
-  padding-top: 80px;
+  padding-top: 70px;
   padding-bottom: 50px;
   /* color: white; */
   overflow: hidden;
@@ -709,8 +709,8 @@ ul#nav li.current a {
 /* ------------------------------------------------------------------ */
 
 footer {
-  padding-top: 48px;
-  margin-bottom: 48px;
+  padding-top: 30px;
+  margin-bottom: 10px;
   color: #303030;
   font-size: 14px;
   text-align: center;

@@ -18,7 +18,7 @@ export default class ContactMe extends Component {
           <div className="nine columns main-col">
             <div className="row item">
               <div className="twelve columns">
-                <h2>
+                <h1>
                   <a
                     href="mailto:hawklook.2331@gmail.com"
                     target="_blank"
@@ -26,7 +26,7 @@ export default class ContactMe extends Component {
                   >
                     {resumeData.mail}
                   </a>
-                </h2>
+                </h1>
               </div>
             </div>
           </div>

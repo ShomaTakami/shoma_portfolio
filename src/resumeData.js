@@ -83,6 +83,14 @@ let resumeData = {
 
   portfolio: [
     {
+      name: "Portfolio",
+      imgurl: "images/portfolio/portfolio_thumb.png",
+      url: "https://shomatakami.ca",
+      giturl: "https://github.com/ShomaTakami/shoma_portfolio",
+      description: "My portfolio.",
+      lan: "HTML5 / CSS3 / jQuery / JS / React "
+    },
+    {
       name: "Photo Works",
       imgurl: "images/portfolio/Photography.png",
       url: "https://shomatakami.ca/photography",
@@ -101,7 +109,7 @@ let resumeData = {
     {
       name: "Weather WebApp",
       imgurl: "images/portfolio/weather.png",
-      url: "https://stoic-einstein-4cc4bc.netlify.com/",
+      url: "https://shomatakami.ca/weather/",
       giturl: "https://github.com/ShomaTakami/weather",
       description: "You can search the weather in you place or anywhere. ",
       lan: "React.js / Bootstrap / weather API"
