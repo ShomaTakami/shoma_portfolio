@@ -449,7 +449,7 @@
   }
 
   .portfolio-item-meta {
-    padding: 8px !important;
+    padding-top: 5px;
   }
   .portfolio-item-meta > button {
     height: 35px !important;

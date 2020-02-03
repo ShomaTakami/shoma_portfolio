@@ -7,11 +7,11 @@ export default class Testimonials extends Component {
       <section id="testimonials">
         <div className="text-container">
           <div className="work-width">
-            <div className="two columns header-col">
+            {/* <div className="two columns header-col">
               <h1>
                 <span>Works</span>
               </h1>
-            </div>
+            </div> */}
             <div className="flex-container">
               <div className="bgrid-thirds s-bgrid-halves">
                 <ul>
@@ -20,14 +20,13 @@ export default class Testimonials extends Component {
                       return (
                         <li key={item.name} className="list-item">
                           <div className="item-wrap">
-                            <img
-                              src={`${item.imgurl}`}
-                              className="item-img"
-                              alt={`${item.name}`}
-                            />
-                            {/* <h3 className="item-title">{item.name}</h3>
-                            <h3 className="item-des">{item.description}</h3>
-                            <h3 className="item-lan">{item.lan}</h3> */}
+                            <div className="img-flame">
+                              <img
+                                src={`${item.imgurl}`}
+                                className="item-img"
+                                alt={`${item.name}`}
+                              />
+                            </div>
                             <div className="overlay">
                               <div className="portfolio-item-meta">
                                 <button
