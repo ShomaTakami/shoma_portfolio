@@ -45,11 +45,11 @@ export default class Header extends Component {
                 style={{ color: "#fff", fontFamily: "sans-serif " }}
                 className="fa-4x"
               >
-                I am a {resumeData.role}.
-                <br />
+                {resumeData.role}
+                {/* <br />
                 {resumeData.roleDescription}
                 <br />
-                {resumeData.locate}
+                {resumeData.locate} */}
               </h3>
               <a
                 className="button"
