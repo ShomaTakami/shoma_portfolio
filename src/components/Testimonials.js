@@ -20,12 +20,21 @@ export default class Testimonials extends Component {
                     </div>
                     <div className="overlay">
                       <div className="portfolio-item-meta">
-                        <a className="button work_button" href={`${item.url}`}>
+                        <a
+                          className="button work_button"
+                          href={item.url}
+                          target="_blank"
+                          without
+                          rel="noopener noreferrer"
+                        >
                           View
                         </a>
                         <a
                           className="button work_button"
-                          href={`${item.giturl}`}
+                          href={item.giturl}
+                          target="_blank"
+                          without
+                          rel="noopener noreferrer"
                         >
                           Github
                         </a>

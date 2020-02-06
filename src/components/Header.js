@@ -10,7 +10,7 @@ export default class Header extends Component {
               Show navigation
             </a>
             <ul id="nav" className="nav">
-              <li className="current">
+              <li>
                 <a className="smoothscroll" href="#home">
                   Home
                 </a>
@@ -53,7 +53,7 @@ export default class Header extends Component {
               </h3>
               <a
                 className="button"
-                href="https://shomatakami.ca/public/images/RESUME_copy.pdf"
+                href="https://shomatakami.ca/images/RESUME_copy.pdf"
                 download="ShomaTakami's_Resume.pdf"
               >
                 <i className="fa fa-download"></i> Resume
