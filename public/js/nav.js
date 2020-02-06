@@ -8,3 +8,7 @@ window.onscroll = function() {
   }
   prevScrollpos = currentScrollPos;
 };
+
+document.onmousemove = function() {
+  document.getElementById("nav-wrap").style.top = "0";
+};
