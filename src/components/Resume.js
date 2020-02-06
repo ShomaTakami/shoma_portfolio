@@ -3,28 +3,28 @@ export default class Resume extends Component {
   render() {
     let resumeData = this.props.resumeData;
     return (
-      <section id='resume'>
-        <div className='row education'>
-          <div className='three columns header-col'>
+      <section id="resume">
+        <div className="row education">
+          <div className="three columns header-col">
             <h1>
               <span>Education</span>
             </h1>
           </div>
-          <div className='nine columns main-col'>
+          <div className="nine columns main-col">
             {resumeData.education &&
               resumeData.education.map(item => {
                 return (
-                  <div className='row item' key={item.UniversityName}>
-                    <div className='twelve columns'>
+                  <div className="row item" key={item.UniversityName}>
+                    <div className="twelve columns">
                       <h3>{item.UniversityName}</h3>
-                      <p className='info'>
+                      <p className="info">
                         {item.specialization}
                         <span>&bull;</span>{" "}
-                        <em className='date'>
+                        <em className="date">
                           {item.MonthOfPassing} {item.YearOfPassing}
                         </em>
                       </p>
-                      <p className='info'>{item.Achievements}</p>
+                      <p className="info">{item.Achievements}</p>
                     </div>
                   </div>
                 );
@@ -32,19 +32,19 @@ export default class Resume extends Component {
           </div>
         </div>
 
-        <div className='row skill'>
-          <div className='three columns header-col'>
+        <div className="row skill">
+          <div className="three columns header-col">
             <h1>
               <span>Skills</span>
             </h1>
           </div>
-          <div className='nine columns main-col'>
-            <div className='bgrid-thirds s-bgrid-thirds'>
-              <ul className='skills'>
+          <div className="nine columns main-col skill_container">
+            <div className="bgrid-thirds">
+              <ul className="skills skill_ul">
                 {resumeData.skills &&
                   resumeData.skills.map(item => {
                     return (
-                      <li key={item.skillname} className='column'>
+                      <li key={item.skillname} className="column">
                         <img src={item.imgurl} alt={item.skillname} />
                       </li>
                     );

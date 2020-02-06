@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 export default class ContactMe extends Component {
   render() {
-    let resumeData = this.props.resumeData;
+    // let resumeData = this.props.resumeData;
     return (
       <section id="contact">
         <div className="row section-head">
@@ -18,15 +18,20 @@ export default class ContactMe extends Component {
           <div className="nine columns main-col">
             <div className="row item">
               <div className="twelve columns">
-                <h1>
+                <p>
+                  I'm currently looking for job opportunities, my inbox is
+                  always open. Whether for a potential project or just to say
+                  hi, I'll try my best to answer your email!
+                  <br />
                   <a
+                    className="button"
                     href="mailto:hawklook.2331@gmail.com"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    {resumeData.mail}
+                    Say Hello!!
                   </a>
-                </h1>
+                </p>
               </div>
             </div>
           </div>

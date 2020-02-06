@@ -2,8 +2,8 @@ let resumeData = {
   name: "Shoma Takami",
   role: "Frontend Developer",
   mail: "hawklook.2331@gmail.com",
-  roleDescription:
-    "I am responsive for Web design and Front-end developping with HTML, CSS, JS, jQuery and React. Hope you like this web site!",
+  roleDescription: `Always keen to grow and learn.`,
+  locate: "Vancouver BC, Canada.",
   socialLinks: [
     {
       name: "linkedin",

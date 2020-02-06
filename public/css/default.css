@@ -277,6 +277,7 @@ h6 {
 
 p {
   margin: 0 0 30px 0;
+  font-size: 1.6rem;
 }
 p img {
   margin: 0;
@@ -419,7 +420,7 @@ a,
 a:visited {
   text-decoration: none;
   outline: 0;
-  color: #11abb0;
+  color: #f06000;
 
   -webkit-transition: color 0.3s ease-in-out;
   -moz-transition: color 0.3s ease-in-out;
@@ -434,7 +435,16 @@ p a,
 p a:visited {
   line-height: inherit;
 }
-
+.resume_text {
+  color: white;
+}
+.resume_text:hover,
+.resume_text:focus {
+  color: #f06000;
+}
+.resume_text:visited {
+  color: #f06000;
+}
 /*  4. List  --------------------------------------------------------- */
 
 ul,
@@ -517,7 +527,7 @@ li p {
   color: #313131;
 }
 .stats-tabs li a:hover {
-  color: #11abb0;
+  color: #f06000;
 }
 .stats-tabs li a b {
   display: block;
@@ -533,7 +543,7 @@ dl {
 }
 dt {
   margin: 0;
-  color: #11abb0;
+  color: #f06000;
 }
 dd {
   margin: 0 0 0 20px;
@@ -611,7 +621,7 @@ dd {
 }
 .pagination .current,
 .pagination .current:hover {
-  background-color: #11abb0;
+  background-color: #f06000;
   color: #fff;
 }
 .pagination .inactive,
@@ -637,17 +647,19 @@ img.pull-left {
 
 /*  6. Buttons  --------------------------------------------------------- */
 
-button {
+button,
+.button {
   font: 16px/30px "opensans-bold", sans-serif;
-  background: #11abb0;
+  /* background: #f06000; */
   display: inline-block;
   text-decoration: none;
   letter-spacing: 0;
-  color: #fff;
+  color: #f06000;
   padding: 12px 20px;
+  padding: 0.3em 1em;
   margin-top: 18px;
   margin-bottom: 18px;
-  border: none;
+  border: solid 2px #f06000;
   cursor: pointer;
   height: auto;
 
@@ -668,18 +680,27 @@ button {
   text-align: center;
 }
 
-button:hover {
-  background: #3d4145;
-  color: #fff;
+.portfolio-item-meta > button {
+  background-color: none !important;
 }
-
-button:active {
-  background: #3d4145;
-  color: #fff;
+button:hover,
+.button:hover {
+  background: #f0600041 !important;
+  color: #f06000 !important;
+}
+.work_button {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+button:active,
+.button:active {
+  background: #f0600041 !important;
+  color: #f06000 !important;
 }
 
 /* Fix for odd Mozilla border & padding issues */
-button::-moz-focus-inner {
+button::-moz-focus-inner,
+.button:-moz-focus-inner {
   border: 0;
   padding: 0;
 }
@@ -985,11 +1006,12 @@ input[type="checkbox"] {
 }
 
 .list-item {
-  background-color: rgba(97, 113, 117, 0.7);
+  background-color: #1f20248f;
   padding: 10px;
   margin: 40px auto;
   position: relative;
   width: 75%;
+  border: 5px solid #1f2024;
 }
 .item-wrap {
   -webkit-box-sizing: border-box; /*webkit系*/
@@ -1083,7 +1105,7 @@ properly.
     float: none;
     margin-left: 0;
     margin-right: 0;
-    padding: 0 30px;
+    padding: 10px 30px;
   }
   .row .row {
     width: auto;
@@ -1205,4 +1227,9 @@ properly.
 
 html {
   font-size: 62.5%;
+}
+
+.resume_button {
+  margin-bottom: 0 !important;
+  width: 40% !important;
 }
