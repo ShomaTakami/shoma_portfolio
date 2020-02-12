@@ -91,14 +91,6 @@ let resumeData = {
       lan: "HTML5 / CSS3 / jQuery / JS / React "
     },
     {
-      name: "Photo Works",
-      imgurl: "images/portfolio/Photography.png",
-      url: "https://shomatakami.ca/photography",
-      giturl: "https://github.com/ShomaTakami/photography",
-      description: "Photography works. Single Page",
-      lan: "HTML5 / CSS3 / jQuery / JS"
-    },
-    {
       name: "Artwork Website",
       imgurl: "images/portfolio/Art_Page.png",
       url: "https://shomatakami.ca/art_works",
@@ -115,21 +107,37 @@ let resumeData = {
       lan: "React.js / Bootstrap / weather API"
     },
     {
-      name: "WorkOut Record",
-      imgurl: "images/portfolio/workout.png",
-      url: "https://sad-benz-d15943.netlify.com",
-      giturl: "https://github.com/ShomaTakami/workout_app",
-      description: "You can record how much weight you lift.",
-      lan: "React.js / React-Redux / Material-ui"
+      name: "Photo Works",
+      imgurl: "images/portfolio/Photography.png",
+      url: "https://shomatakami.ca/photography",
+      giturl: "https://github.com/ShomaTakami/photography",
+      description: "Photography works. Single Page",
+      lan: "HTML5 / CSS3 / jQuery / JS"
     },
     {
-      name: "Recipe WebApp",
-      imgurl: "images/portfolio/recipe-pic.png",
-      url: "https://gallant-aryabhata-9b2e51.netlify.com/",
-      giturl: "https://github.com/ShomaTakami/recipe-app",
-      description: "You can search recipes what you would lole to cook. ",
-      lan: "React.js / Bootstrap / Food API"
+      name: "Drum kit",
+      imgurl: "images/portfolio/Drum Kit.png",
+      url: "https://frosty-kowalevski-1e9554.netlify.com/",
+      giturl: "https://github.com/ShomaTakami/drum_kit",
+      description: "drum Sound button. learn DOM ",
+      lan: "HTML5 / CSS3  / JS"
     }
+    // {
+    //   name: "WorkOut Record",
+    //   imgurl: "images/portfolio/workout.png",
+    //   url: "https://sad-benz-d15943.netlify.com",
+    //   giturl: "https://github.com/ShomaTakami/workout_app",
+    //   description: "You can record how much weight you lift.",
+    //   lan: "React.js / React-Redux / Material-ui"
+    // },
+    // {
+    //   name: "Recipe WebApp",
+    //   imgurl: "images/portfolio/recipe-pic.png",
+    //   url: "https://gallant-aryabhata-9b2e51.netlify.com/",
+    //   giturl: "https://github.com/ShomaTakami/recipe-app",
+    //   description: "You can search recipes what you would lole to cook. ",
+    //   lan: "React.js / Bootstrap / Food API"
+    // }
   ]
 };
 

@@ -53,8 +53,8 @@ export default class Header extends Component {
               </h3>
               <a
                 className="button"
-                href="https://shomatakami.ca/images/RESUME_copy.pdf"
-                download="ShomaTakami's_Resume.pdf"
+                href="https://shomatakami.ca/images/shoma.pdf"
+                download="shoma.pdf"
               >
                 <i className="fa fa-download"></i> Resume
               </a>
