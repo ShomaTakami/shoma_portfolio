@@ -3,7 +3,7 @@ export default class ContactMe extends Component {
   render() {
     // let resumeData = this.props.resumeData;
     return (
-      <section id="contact">
+      <section id="contact" className="fade_off slide">
         <div className="row section-head">
           {/* <div className="ten columns header-col">
             <h1>

@@ -3,7 +3,7 @@ export default class Resume extends Component {
   render() {
     let resumeData = this.props.resumeData;
     return (
-      <section id="resume">
+      <section id="resume" className="fade_off slide">
         <div className="row education">
           <div className="three columns header-col">
             <h1>

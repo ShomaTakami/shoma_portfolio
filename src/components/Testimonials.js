@@ -4,7 +4,7 @@ export default class Testimonials extends Component {
   render() {
     let resumeData = this.props.resumeData;
     return (
-      <section id="testimonials">
+      <section id="testimonials" className="fade_off slide">
         <div className="bgrid-thirds s-bgrid-halves">
           {resumeData.portfolio &&
             resumeData.portfolio.map(item => {

@@ -115,6 +115,14 @@ let resumeData = {
       lan: "HTML5 / CSS3 / jQuery / JS"
     },
     {
+      name: "Simon Game",
+      imgurl: "images/portfolio/Simon Game.png",
+      url: "https://vigorous-curran-400a88.netlify.com/",
+      giturl: "https://github.com/ShomaTakami/Simon_game",
+      description: "Simon game.",
+      lan: "HTML5 / CSS3 / jQuery / JS"
+    },
+    {
       name: "Drum kit",
       imgurl: "images/portfolio/Drum Kit.png",
       url: "https://frosty-kowalevski-1e9554.netlify.com/",

@@ -3,7 +3,7 @@ export default class About extends Component {
   render() {
     let resumeData = this.props.resumeData;
     return (
-      <section id="about">
+      <section id="about" className="fade_off slide">
         <div className="row">
           <div className="three columns about_dis">
             <img
