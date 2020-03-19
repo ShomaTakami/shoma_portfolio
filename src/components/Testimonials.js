@@ -10,6 +10,7 @@ export default class Testimonials extends Component {
             resumeData.portfolio.map(item => {
               return (
                 <div key={item.name} className="list-item column ">
+                  <div className="list-item-title">{item.listItemTitle}</div>
                   <div className="item-wrap">
                     <div className="img-flame">
                       <img

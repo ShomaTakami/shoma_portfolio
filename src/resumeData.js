@@ -84,6 +84,7 @@ let resumeData = {
   portfolio: [
     {
       name: "Portfolio",
+      listItemTitle: "PORTFOLIO",
       imgurl: "images/portfolio/portfolio_thumb.png",
       url: "https://shomatakami.ca",
       giturl: "https://github.com/ShomaTakami/shoma_portfolio",
@@ -92,6 +93,8 @@ let resumeData = {
     },
     {
       name: "Artwork Website",
+      listItemTitle: "DESIGN",
+
       imgurl: "images/portfolio/Art_Page.png",
       url: "https://shomatakami.ca/art_works",
       giturl: "https://github.com/ShomaTakami/Art_website",
@@ -100,6 +103,8 @@ let resumeData = {
     },
     {
       name: "Weather WebApp",
+      listItemTitle: "WEATHER API",
+
       imgurl: "images/portfolio/weather.png",
       url: "https://shomatakami.ca/weather/",
       giturl: "https://github.com/ShomaTakami/weather",
@@ -108,6 +113,8 @@ let resumeData = {
     },
     {
       name: "Photo Works",
+      listItemTitle: "SIMPLE WEB SITE",
+
       imgurl: "images/portfolio/Photography.png",
       url: "https://shomatakami.ca/photography",
       giturl: "https://github.com/ShomaTakami/photography",
@@ -116,6 +123,8 @@ let resumeData = {
     },
     {
       name: "Simon Game",
+      listItemTitle: "SMALL GAME by JS",
+
       imgurl: "images/portfolio/Simon Game.png",
       url: "https://vigorous-curran-400a88.netlify.com/",
       giturl: "https://github.com/ShomaTakami/Simon_game",
@@ -124,6 +133,8 @@ let resumeData = {
     },
     {
       name: "Drum kit",
+      listItemTitle: "SOUND BUTTON by JS",
+
       imgurl: "images/portfolio/Drum Kit.png",
       url: "https://frosty-kowalevski-1e9554.netlify.com/",
       giturl: "https://github.com/ShomaTakami/drum_kit",

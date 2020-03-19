@@ -349,7 +349,7 @@ blockquote cite a:visited {
 		</blockquote>
 	 </aside>
 /*
-/* 
+/*
 --------------------------------------------------------------------- */
 
 .pull-quote {
@@ -1012,6 +1012,11 @@ input[type="checkbox"] {
   position: relative;
   width: 75%;
   border: 5px solid #1f2024;
+}
+.list-item > .list-item-title {
+  background: #1f2024a8;
+  color: white;
+  margin-bottom: 5px;
 }
 .item-wrap {
   -webkit-box-sizing: border-box; /*webkit系*/
