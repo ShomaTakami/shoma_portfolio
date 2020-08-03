@@ -12,7 +12,7 @@ export default class Resume extends Component {
           </div>
           <div className="nine columns main-col">
             {resumeData.education &&
-              resumeData.education.map(item => {
+              resumeData.education.map((item) => {
                 return (
                   <div className="row item" key={item.UniversityName}>
                     <div className="twelve columns">
@@ -42,7 +42,7 @@ export default class Resume extends Component {
             <div className="bgrid-thirds">
               <ul className="skills skill_ul">
                 {resumeData.skills &&
-                  resumeData.skills.map(item => {
+                  resumeData.skills.map((item) => {
                     return (
                       <li key={item.skillname} className="column">
                         <img src={item.imgurl} alt={item.skillname} />

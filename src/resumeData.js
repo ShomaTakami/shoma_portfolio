@@ -8,21 +8,21 @@ let resumeData = {
     {
       name: "linkedin",
       url: "https://www.linkedin.com/in/shoma-takami-680167178/",
-      className: "fa fa-linkedin"
+      className: "fa fa-linkedin",
     },
     {
       name: "github",
       url: "https://github.com/ShomaTakami",
-      className: "fa fa-github"
+      className: "fa fa-github",
     },
     {
       name: "twitter",
       url: "https://twitter.com/Shoma19950101",
-      className: "fa fa-twitter"
-    }
+      className: "fa fa-twitter",
+    },
   ],
   aboutme:
-    "I was born in Gifu where is countryside in Japan. After I graduated the Highschool, I've been abroad to some countries to know that differencies between Japan and others. Then, I live in Canada. I love workout, drawing, fashion and travelling. ",
+    "My name is Shoma. I'm a Japanese Front End Developer based in Vancouver, Canada. After I graduated the Highschool in Japan, I've been abroad to some countries to know that differences between Japan and others. I love workout, drawing, fashion and travelling. I've been focusing on building simple, user friendly design web sites and web applications. I'm a team player and love coding, always keen to learn new skills.",
   address: "Japan",
   website: "https://github.com/ShomaTakami",
   education: [
@@ -31,54 +31,47 @@ let resumeData = {
       specialization: "diploma",
       MonthOfPassing: "Dec",
       YearOfPassing: "2019",
-      Achievements: "Web & App development"
-    }
-    // {
-    //   UniversityName: "Some University",
-    //   specialization: "major",
-    //   MonthOfPassing: "Jan",
-    //   YearOfPassing: "2015",
-    //   Achievements: "Some Achievements"
-    // }
+      Achievements: "Web & App development",
+    },
   ],
 
   skills: [
     {
       skillname: "HTML5",
-      imgurl: "images/html5_img.png"
+      imgurl: "images/html5_img.png",
     },
     {
       skillname: "CSS3",
-      imgurl: "images/css3_img.png"
+      imgurl: "images/css3_img.png",
     },
     {
       skillname: "Bootstrap",
-      imgurl: "images/bootstrap_img.png"
+      imgurl: "images/bootstrap_img.png",
     },
     {
       skillname: "JavaScript",
-      imgurl: "images/js_img.png"
+      imgurl: "images/js_img.png",
     },
     {
       skillname: "jQuery",
-      imgurl: "images/jquery_img.png"
+      imgurl: "images/jquery_img.png",
     },
     {
       skillname: "REACT",
-      imgurl: "images/react_img.png"
+      imgurl: "images/react_img.png",
     },
     {
       skillname: "MongoDB",
-      imgurl: "images/mongodb_img.png"
+      imgurl: "images/mongodb_img.png",
     },
     {
       skillname: "Node",
-      imgurl: "images/nodejs_img.png"
+      imgurl: "images/nodejs_img.png",
     },
     {
       skillname: "Git",
-      imgurl: "images/git_img.png"
-    }
+      imgurl: "images/git_img.png",
+    },
   ],
 
   portfolio: [
@@ -89,7 +82,7 @@ let resumeData = {
       url: "https://shomatakami.ca",
       giturl: "https://github.com/ShomaTakami/shoma_portfolio",
       description: "My portfolio.",
-      lan: "HTML5 / CSS3 / jQuery / JS / React "
+      lan: "HTML5 / CSS3 / jQuery / JS / React ",
     },
     {
       name: "Artwork Website",
@@ -99,7 +92,7 @@ let resumeData = {
       url: "https://shomatakami.ca/art_works",
       giturl: "https://github.com/ShomaTakami/Art_website",
       description: "Check my artworks. UI/UX design.",
-      lan: "HTML5 / CSS3 / jQuery / JS"
+      lan: "HTML5 / CSS3 / jQuery / JS",
     },
     {
       name: "Weather WebApp",
@@ -109,7 +102,7 @@ let resumeData = {
       url: "https://shomatakami.ca/weather/",
       giturl: "https://github.com/ShomaTakami/weather",
       description: "You can search the weather in you place or anywhere. ",
-      lan: "React.js / Bootstrap / weather API"
+      lan: "React.js / Bootstrap / weather API",
     },
     {
       name: "Photo Works",
@@ -119,7 +112,7 @@ let resumeData = {
       url: "https://shomatakami.ca/photography",
       giturl: "https://github.com/ShomaTakami/photography",
       description: "Photography works. Single Page",
-      lan: "HTML5 / CSS3 / jQuery / JS"
+      lan: "HTML5 / CSS3 / jQuery / JS",
     },
     {
       name: "Simon Game",
@@ -129,7 +122,7 @@ let resumeData = {
       url: "https://vigorous-curran-400a88.netlify.com/",
       giturl: "https://github.com/ShomaTakami/Simon_game",
       description: "Simon game.",
-      lan: "HTML5 / CSS3 / jQuery / JS"
+      lan: "HTML5 / CSS3 / jQuery / JS",
     },
     {
       name: "Drum kit",
@@ -139,25 +132,9 @@ let resumeData = {
       url: "https://frosty-kowalevski-1e9554.netlify.com/",
       giturl: "https://github.com/ShomaTakami/drum_kit",
       description: "drum Sound button. learn DOM ",
-      lan: "HTML5 / CSS3  / JS"
-    }
-    // {
-    //   name: "WorkOut Record",
-    //   imgurl: "images/portfolio/workout.png",
-    //   url: "https://sad-benz-d15943.netlify.com",
-    //   giturl: "https://github.com/ShomaTakami/workout_app",
-    //   description: "You can record how much weight you lift.",
-    //   lan: "React.js / React-Redux / Material-ui"
-    // },
-    // {
-    //   name: "Recipe WebApp",
-    //   imgurl: "images/portfolio/recipe-pic.png",
-    //   url: "https://gallant-aryabhata-9b2e51.netlify.com/",
-    //   giturl: "https://github.com/ShomaTakami/recipe-app",
-    //   description: "You can search recipes what you would lole to cook. ",
-    //   lan: "React.js / Bootstrap / Food API"
-    // }
-  ]
+      lan: "HTML5 / CSS3  / JS",
+    },
+  ],
 };
 
 export default resumeData;
