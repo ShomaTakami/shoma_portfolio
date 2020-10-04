@@ -5,17 +5,17 @@ export default class About extends Component {
     return (
       <section id="about" className="fade_off slide">
         <div className="row">
-          <div className="three columns about_dis">
+          <div className="three columns header-col">
+            <h1>
+              <span>About Me</span>
+            </h1>
             <img
               className="profile-pic"
               src="images/shoma_pic.jpg"
               alt="profile_pic"
             />
           </div>
-          <div className="nine columns main-col">
-            <h2>
-              <span>About Me</span>
-            </h2>
+          <div className="nine columns main-col text-center">
             <p>
               {resumeData.aboutme} <br />
               <a

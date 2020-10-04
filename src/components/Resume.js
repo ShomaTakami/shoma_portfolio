@@ -32,19 +32,23 @@ export default class Resume extends Component {
           </div>
         </div>
 
-        <div className="row skill">
+        <div className="row skill" id="skill_section">
           <div className="three columns header-col">
             <h1>
               <span>Skills</span>
             </h1>
           </div>
-          <div className="nine columns main-col skill_container">
+          <div className="nine columns " id="skill_container">
             <div className="bgrid-thirds">
               <ul className="skills skill_ul">
                 {resumeData.skills &&
                   resumeData.skills.map((item) => {
                     return (
-                      <li key={item.skillname} className="column">
+                      <li
+                        key={item.skillname}
+                        className="column"
+                        id="skill-box"
+                      >
                         <img src={item.imgurl} alt={item.skillname} />
                       </li>
                     );

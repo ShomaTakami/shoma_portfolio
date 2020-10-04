@@ -85,13 +85,14 @@ let resumeData = {
       lan: "HTML5 / CSS3 / jQuery / JS / React ",
     },
     {
-      name: "Artwork Website",
-      listItemTitle: "DESIGN",
+      name: "Food Website",
+      listItemTitle: "Food Simple website (Persona)",
 
-      imgurl: "images/portfolio/Art_Page.png",
-      url: "https://shomatakami.ca/art_works",
-      giturl: "https://github.com/ShomaTakami/Art_website",
-      description: "Check my artworks. UI/UX design.",
+      imgurl: "images/portfolio/Omnifood3.png",
+      url: "https://silly-goldberg-5938cf.netlify.app/",
+      giturl: "https://github.com/ShomaTakami/Food_website",
+      description:
+        "well designed simple website which is responsible. UI/UX design.",
       lan: "HTML5 / CSS3 / jQuery / JS",
     },
     {

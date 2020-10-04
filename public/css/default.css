@@ -995,7 +995,7 @@ input[type="checkbox"] {
   width: 25%;
 }
 .bgrid-thirds [class*="column"] {
-  width: 33.33333%;
+  width: 30%;
 }
 .bgrid-halves [class*="column"] {
   width: 50%;
@@ -1029,6 +1029,7 @@ input[type="checkbox"] {
 }
 .item-img {
   width: 80%;
+  height: 100%;
   height: auto;
   object-fit: cover;
 }
@@ -1106,7 +1107,7 @@ properly.
   }
   .column,
   .columns {
-    width: auto !important;
+    width: auto;
     float: none;
     margin-left: 0;
     margin-right: 0;

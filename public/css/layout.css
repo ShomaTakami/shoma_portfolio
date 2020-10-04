@@ -1,10 +1,15 @@
 * {
+  margin: 0;
+  padding: 0;
   box-sizing: border-box;
 }
+
+html,
 body {
   background: #0f0f0f;
+  text-rendering: optimizeLegibility;
+  overflow-x: hidden;
 }
-
 /* -------------------------- Header Styles----------------------------------------*/
 
 header {
@@ -179,7 +184,7 @@ ul#nav li a:hover {
   color: #f06000;
 }
 
-/* 
+/*
 ul#nav li.current a {
   color: #f06000;
 } */
@@ -203,8 +208,16 @@ ul#nav li.current a {
 #about a:focus {
   color: #f06000;
 }
-
-#about h2,
+#about h1 {
+  font: 3.1rem "opensans-bold", sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+#about h1 span {
+  border-bottom: 3px solid #f06000;
+  padding-bottom: 6px;
+}
+#about h1,
 #resume h1 {
   font: 3.1rem "opensans-bold", sans-serif;
   color: #fff;
@@ -219,9 +232,10 @@ ul#nav li.current a {
 }
 #about .profile-pic {
   position: relative;
-  width: 21rem;
-  height: 21rem;
+  width: 15rem;
+  height: 15rem;
   border-radius: 100%;
+  margin: 4%;
 }
 #about .contact-details {
   width: 41.66667%;
@@ -266,12 +280,13 @@ ul#nav li.current a {
 #resume a:focus {
   color: #313131;
 }
-
+#about h1,
 #resume h1 {
   font: 3.1rem "opensans-bold", sans-serif;
   text-transform: uppercase;
   letter-spacing: 1px;
 }
+#about h1 span,
 #resume h1 span {
   border-bottom: 3px solid #f06000;
   padding-bottom: 6px;
@@ -280,10 +295,11 @@ ul#nav li.current a {
   font: 3.1rem "opensans-bold", sans-serif;
   color: #c5c5c5;
 }
-
+#about .header-col,
 #resume .header-col {
   padding-top: 9px;
 }
+#about .main-col,
 #resume .main-col {
   padding-right: 10%;
 }
@@ -312,7 +328,15 @@ ul#nav li.current a {
 /*----------------------------------------------*/
 /*	Skill Bars
 /*----------------------------------------------*/
+.skill-img {
+  max-width: 35%;
+}
 
+.skill_container {
+  width: 90%;
+  text-align: center;
+  margin: 0 auto;
+}
 .bars {
   width: 95%;
   float: left;
@@ -352,114 +376,6 @@ ul#nav li.current a {
   line-height: 42px;
   border-radius: 3px 0 0 3px;
 }
-
-/* .html5 {
-  width: 80%;
-  -moz-animation: html5 2s ease;
-  -webkit-animation: html5 2s ease;
-}
-.css {
-  width: 90%;
-  -moz-animation: css 2s ease;
-  -webkit-animation: css 2s ease;
-} */
-/* .javascript {
-  width: 70%;
-  -moz-animation: javascript 2s ease;
-  -webkit-animation: javascript 2s ease;
-}
-.react {
-  width: 50%;
-  -moz-animation: react 2s ease;
-  -webkit-animation: react 2s ease;
-}
-.node {
-  width: 35%;
-  -moz-animation: node 2s ease;
-  -webkit-animation: node 2s ease;
-} */
-
-/* @-moz-keyframes html5 {
-  0% {
-    width: 0px;
-  }
-  100% {
-    width: 80%;
-  }
-}
-@-moz-keyframes css {
-  0% {
-    width: 0px;
-  }
-  100% {
-    width: 90%;
-  }
-} */
-/* @-moz-keyframes javascript {
-  0% {
-    width: 0px;
-  }
-  100% {
-    width: 70%;
-  }
-}
-@-moz-keyframes react {
-  0% {
-    width: 0px;
-  }
-  100% {
-    width: 50%;
-  }
-}
-@-moz-keyframes node {
-  0% {
-    width: 0px;
-  }
-  100% {
-    width: 35%;
-  }
-} */
-
-/* @-webkit-keyframes html5 {
-  0% {
-    width: 0px;
-  }
-  100% {
-    width: 80%;
-  }
-}
-@-webkit-keyframes css {
-  0% {
-    width: 0px;
-  }
-  100% {
-    width: 90%;
-  }
-} */
-/* @-webkit-keyframes javascript {
-  0% {
-    width: 0px;
-  }
-  100% {
-    width: 70%;
-  }
-}
-@-webkit-keyframes react {
-  0% {
-    width: 0px;
-  }
-  100% {
-    width: 50%;
-  }
-}
-@-webkit-keyframes node {
-  0% {
-    width: 0px;
-  }
-  100% {
-    width: 35%;
-  }
-} */
 
 /* ------------------------------------------------------------------ */
 /* f. Call To Action Section
@@ -532,6 +448,24 @@ ul#nav li.current a {
   width: 100%;
   overflow: hidden;
 }
+.container {
+  width: 95%;
+  margin: 0 2.5%;
+}
+.clearfix {
+  zoom: 1;
+}
+.clearfix:after {
+  content: " .";
+  clear: both;
+  display: block;
+  height: 0;
+  visibility: hidden;
+}
+.card-container {
+  width: 100%;
+}
+
 #testimonials h1,
 #testimonials h3,
 #testimonials a {

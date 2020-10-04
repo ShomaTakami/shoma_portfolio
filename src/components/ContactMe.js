@@ -15,7 +15,7 @@ export default class ContactMe extends Component {
               <span>Contact</span>
             </h1>
           </div>
-          <div className="nine columns main-col">
+          <div className="nine columns main-col text-center">
             <div className="row item">
               <div className="twelve columns">
                 <p>
