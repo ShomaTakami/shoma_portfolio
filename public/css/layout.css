@@ -11,7 +11,9 @@ body {
   overflow-x: hidden;
 }
 /* -------------------------- Header Styles----------------------------------------*/
-
+.text-center {
+  float: left;
+}
 header {
   position: relative;
   height: 800px;

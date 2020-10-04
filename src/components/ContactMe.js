@@ -5,11 +5,6 @@ export default class ContactMe extends Component {
     return (
       <section id="contact" className="fade_off slide">
         <div className="row section-head">
-          {/* <div className="ten columns header-col">
-            <h1>
-              <span>Contact</span>
-            </h1>
-          </div> */}
           <div className="three columns header-col">
             <h1>
               <span>Contact</span>
