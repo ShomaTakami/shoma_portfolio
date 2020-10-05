@@ -12,9 +12,9 @@
   /* header styles
    ------------------------------------------------------------------ */
   header .banner-text h1 {
-    font: 80px/1.1em "opensans-bold", sans-serif;
+    font-size: 4rem;
     letter-spacing: -1px;
-    margin: 0 auto 12px auto;
+    margin: 200px auto 120px auto;
   }
 
   .item-wrap > img {
@@ -37,13 +37,10 @@
     padding-bottom: 12px;
   }
   header .banner-text h1 {
-    font: 78px/1.1em "opensans-bold", sans-serif;
+    font-size: 3.2em;
     letter-spacing: -1px;
   }
-  header .banner-text h3 {
-    font: 17px/1.9em "librebaskerville-regular", serif;
-    width: 80%;
-  }
+
   header .banner-text hr {
     width: 65%;
     margin: 12px auto;
@@ -225,12 +222,9 @@
     padding-top: 6px;
   }
   header .banner-text h1 {
-    font: 68px/1.1em "opensans-bold", sans-serif;
+    font-size: 2.7em;
   }
-  header .banner-text h3 {
-    font: 16px/1.9em "librebaskerville-regular", serif;
-    width: 85%;
-  }
+
   header .banner-text hr {
     width: 80%;
     margin: 18px auto;
@@ -476,12 +470,8 @@
     padding-top: 24px;
   }
   header .banner-text h1 {
-    font: 4em "opensans-bold", sans-serif !important;
-    margin: 0 auto 24px auto;
-  }
-  header .banner-text h3 {
-    font: 1.3em "librebaskerville-regular", sans-serif;
-    width: 90%;
+    font-size: 2em;
+    margin: 200px auto 100px auto;
   }
 
   /* header social links */

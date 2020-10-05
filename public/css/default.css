@@ -19,7 +19,7 @@ e. Others
 
 =====================================================================  */
 
-@import url("fonts.css");
+/* @import url("fonts.css"); */
 @import url("fontello/css/fontello.css");
 @import url("font-awesome/css/font-awesome.min.css");
 
@@ -138,7 +138,7 @@ code,
 kbd,
 pre,
 samp {
-  font-family: monospace, serif;
+  font-family: "Roboto Slab", serif;
   font-size: 1em;
 }
 
@@ -211,8 +211,8 @@ html {
 
 body {
   background: #fff;
-  font-family: "opensans-regular", sans-serif;
-  font-weight: normal;
+  font-family: "Roboto Slab", serif;
+  font-weight: 400;
   font-size: 15px;
   line-height: 30px;
   color: #838c95;
@@ -232,8 +232,8 @@ h4,
 h5,
 h6 {
   color: #313131;
-  font-family: "opensans-bold", sans-serif;
-  font-weight: normal;
+  font-family: "Roboto Slab", serif;
+  font-weight: 900;
 }
 h1 a,
 h2 a,
@@ -283,18 +283,18 @@ p img {
   margin: 0;
 }
 p.lead {
-  font: 19px/36px "opensans-light", sans-serif;
+  font: 19px/36px "Roboto Slab", serif;
   margin-bottom: 18px;
 }
 
 /* for 'em' and 'strong' tags, font-size and line-height should be same with
 the body tag due to rendering problems in some browsers */
 em {
-  font: 15px/30px "opensans-italic", sans-serif;
+  font: 15px/30px "Roboto Slab", serif;
 }
 strong,
 b {
-  font: 15px/30px "opensans-bold", sans-serif;
+  font: 15px/30px "Roboto Slab", serif;
 }
 small {
   font-size: 11px;
@@ -313,14 +313,14 @@ blockquote:before {
   font-size: 80px;
   line-height: 0px;
   margin: 0;
-  font-family: arial, sans-serif;
+  font-family: "Roboto Slab", serif;
 
   position: absolute;
   top: 30px;
   left: 0;
 }
 blockquote p {
-  font-family: "librebaskerville-italic", serif;
+  font-family: "Roboto Slab", serif;
   padding: 0;
   font-size: 18px;
   line-height: 36px;
@@ -362,7 +362,7 @@ blockquote cite a:visited {
   opacity: 0.45;
   position: absolute;
   font-size: 80px;
-  font-family: Arial, Sans-Serif;
+  font-family: "Roboto Slab", serif;
 }
 .pull-quote:before {
   content: "\201C";
@@ -383,7 +383,7 @@ blockquote cite a:visited {
 
 /* Abbreviations */
 abbr {
-  font-family: "opensans-bold", sans-serif;
+  font-family: "Roboto Slab", serif;
   font-variant: small-caps;
   text-transform: lowercase;
   letter-spacing: 0.5px;
@@ -399,7 +399,7 @@ abbr:hover {
   margin: 0;
   padding: 14px 6px 0 0;
   font-size: 84px;
-  font-family: /* Copperplate */ "opensans-bold", sans-serif;
+  font-family: /* Copperplate */ "Roboto Slab", serif;
   line-height: 60px;
   text-indent: 0;
   background: transparent;
@@ -522,7 +522,7 @@ li p {
 .stats-tabs li a {
   display: inline-block;
   font-size: 22px;
-  font-family: "opensans-bold", sans-serif;
+  font-family: "Roboto Slab", serif;
   border: none;
   color: #313131;
 }
@@ -533,7 +533,7 @@ li p {
   display: block;
   margin: 6px 0 0 0;
   font-size: 13px;
-  font-family: "opensans-regular", sans-serif;
+  font-family: "Roboto Slab", serif;
   color: #8b9798;
 }
 
