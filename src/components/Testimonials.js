@@ -29,7 +29,7 @@ export default class Testimonials extends Component {
                             without
                             rel="noopener noreferrer"
                           >
-                            View
+                            <i className="fa fas fa-eye"></i> View
                           </a>
                           <a
                             className="button work_button"
@@ -38,7 +38,7 @@ export default class Testimonials extends Component {
                             without
                             rel="noopener noreferrer"
                           >
-                            Github
+                            <i className="fa fab fa-github"></i> Github
                           </a>
                         </div>
                       </div>

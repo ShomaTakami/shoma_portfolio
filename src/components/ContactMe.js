@@ -24,7 +24,7 @@ export default class ContactMe extends Component {
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    Say Hello!!
+                    <i className="fa far fa-envelope"></i> Say Hello!!
                   </a>
                 </p>
               </div>

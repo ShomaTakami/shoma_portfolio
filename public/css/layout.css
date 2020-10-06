@@ -191,10 +191,16 @@ ul#nav li.current a {
   overflow: hidden;
 }
 #home .button,
-#home .button:visited,
+#home .button:visited {
+  color: #e6e8eb;
+  width: 20%;
+}
 #about a,
 #about a:visited {
-  color: #f06000;
+  color: #e6e8eb;
+  width: 40%;
+  padding-right: 10px;
+  padding-left: 10px;
 }
 #about a:hover,
 #about a:focus {
@@ -461,7 +467,7 @@ ul#nav li.current a {
 #testimonials h1,
 #testimonials h3,
 #testimonials a {
-  color: #f06000;
+  color: #e6e8eb;
 }
 #testimonials .text-container {
   padding-top: 20px;
@@ -614,7 +620,8 @@ ul#nav li.current a {
 } */
 #contact a,
 #contact a:visited {
-  color: #f06000;
+  color: #e6e8eb;
+  width: 60%;
 }
 #contact a:hover,
 #contact a:focus {
@@ -633,6 +640,7 @@ ul#nav li.current a {
 #contact h4 {
   font-size: 2.6rem;
 }
+
 #contact .eigth {
   font: 50px/70px "opensans-bold", sans-serif;
   margin-bottom: 6px;

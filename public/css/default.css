@@ -1,25 +1,7 @@
 /*
-=====================================================================
-
-=====================================================================
-
-TOC:
-b. Reset
-c. Default Styles
-   1. Basic
-   2. Typography
-   3. Links
-   4. Images
-   5. Buttons
-   6. Forms
-d. Grid
-e. Others
-   1. Clearing
-   2. Misc
-
+==
 =====================================================================  */
 
-/* @import url("fonts.css"); */
 @import url("fontello/css/fontello.css");
 @import url("font-awesome/css/font-awesome.min.css");
 
@@ -340,17 +322,7 @@ blockquote cite a:visited {
   border: none;
 }
 
-/* ---------------------------------------------------------------------
-/*  Pull Quotes Markup
-/*
-    <aside class="pull-quote">
-		<blockquote>
-			<p></p>
-		</blockquote>
-	 </aside>
-/*
-/*
---------------------------------------------------------------------- */
+/*-------------------------------------------------------------------- */
 
 .pull-quote {
   position: relative;
@@ -489,20 +461,7 @@ li {
   line-height: 18px;
   margin-bottom: 12px;
 }
-/* ul.large li {
-}
-li p {
-} */
 
-/* ---------------------------------------------------------------------
-/*  Stats Tab Markup
-
-    <ul class="stats-tabs">
-		<li><a href="#">[value]<b>[name]</b></a></li>
-	 </ul>
-
-    Extend this object into your markup.
-/*
 /* --------------------------------------------------------------------- */
 .stats-tabs {
   padding: 0;
@@ -629,9 +588,6 @@ dd {
   background-color: #e6e8eb;
   color: #a9adb2;
 }
-/* .pagination .prev,
-.pagination .next {
-} */
 
 /*  5. Images  --------------------------------------------------------- */
 img {
@@ -650,11 +606,10 @@ img.pull-left {
 button,
 .button {
   font: 16px/30px "opensans-bold", sans-serif;
-  /* background: #f06000; */
+  background: #f0600091;
   display: inline-block;
   text-decoration: none;
   letter-spacing: 0;
-  color: #f06000;
   padding: 12px 20px;
   padding: 0.3em 1em;
   margin-top: 18px;
@@ -662,22 +617,22 @@ button,
   border: solid 2px #f06000;
   cursor: pointer;
   height: auto;
-
+  color: #ffffff;
   -webkit-transition: all 0.2s ease-in-out;
   -moz-transition: all 0.2s ease-in-out;
   -o-transition: all 0.2s ease-in-out;
   -ms-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
-
-  -moz-border-radius: 3px;
-  -webkit-border-radius: 3px;
-  -khtml-border-radius: 3px;
-  border-radius: 3px;
-
   width: 65%;
   padding-left: 0 !important;
   padding-right: 0 !important;
   text-align: center;
+
+  border-radius: 200px;
+  -webkit-border-radius: 200px;
+  -moz-border-radius: 200px;
+  -ms-border-radius: 200px;
+  -o-border-radius: 200px;
 }
 
 .portfolio-item-meta > button {
@@ -689,8 +644,13 @@ button:hover,
   color: #f06000 !important;
 }
 .work_button {
-  margin-top: 5px;
-  margin-bottom: 5px;
+  margin: 5px;
+  width: 20%;
+  border-radius: 100px;
+  -webkit-border-radius: 100px;
+  -moz-border-radius: 100px;
+  -ms-border-radius: 100px;
+  -o-border-radius: 100px;
 }
 button:active,
 .button:active {
@@ -772,26 +732,18 @@ input[type="checkbox"] {
   display: inline;
 }
 
-/* ------------------------------------------------------------------ */
-/* d. Grid
----------------------------------------------------------------------
-   gutter = 40px.
-/* ------------------------------------------------------------------ */
-
-/* default
---------------------------------------------------------------- */
+/* ---------------------------------------------------------- */
 .row {
   width: 96%;
   max-width: 1020px;
   margin: 0 auto;
 }
+
 .work-width {
   width: 100%;
-  /* max-width: 1020px; */
-  /* max-width: 85vw; */
   margin: 0 20% 0 0;
 }
-/* fixed width for IE8 */
+
 .ie .row {
   width: 1000px;
 }
@@ -1053,17 +1005,12 @@ input[type="checkbox"] {
   -moz-box-sizing: border-box; /*Firefox*/
   box-sizing: border-box;
 }
-/* .portfolio-item-meta {
-  margin: 20px;
-} */
+
 .portfolio-item-meta button {
   margin: 10px;
   font-size: 2.6rem;
 }
-/* Left clearing for block grid columns - columns that changes width in
-different screen sizes. Allows columns with different heights to align
-properly.
---------------------------------------------------------------------- */
+/* ----------------------------------------------------------- */
 .first {
   clear: left;
 } /* first column in default screen */
@@ -1211,9 +1158,6 @@ properly.
   border: none;
 }
 
-/* .text-center {
-  text-align: center !important;
-} */
 .text-left {
   text-align: left !important;
 }

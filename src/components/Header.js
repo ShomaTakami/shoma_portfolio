@@ -46,20 +46,12 @@ export default class Header extends Component {
                 <span
                   class="typer"
                   id="some-id"
-                  data-words="__,__,Frontend Developer,Shoma Takami"
-                  data-colors="#fff,#fff,#f06000,#f06000"
+                  data-words="_,_,Frontend Developer,Shoma Takami"
+                  data-colors="#fff,#fff,#fff,#f06000"
                   data-delay="63"
                   data-loop="1"
                 ></span>
               </h1>
-              {/* <h1 className="responsive-headline">{resumeData.name}</h1>
-              <h3
-                style={{ color: "#fff", fontFamily: "sans-serif " }}
-                className="fa-4x"
-              >
-                {resumeData.role}
-
-              </h3> */}
               <div className="banner-btn">
                 {" "}
                 <a

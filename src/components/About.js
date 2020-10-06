@@ -24,7 +24,7 @@ export default class About extends Component {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                Open Storymap
+                <i className="fa fas fa-map-marker"></i> Open StoryMap
               </a>
             </p>
           </div>
