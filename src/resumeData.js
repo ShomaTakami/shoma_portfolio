@@ -38,45 +38,45 @@ let resumeData = {
   skills: [
     {
       skillname: "HTML5",
-      imgurl: "images/html5_img.png",
+      imgurl: "images/skill-pics/html5_img.png",
     },
     {
       skillname: "CSS3",
-      imgurl: "images/css3_img.png",
+      imgurl: "images/skill-pics/css3_img.png",
     },
     {
       skillname: "Bootstrap",
-      imgurl: "images/bootstrap_img.png",
+      imgurl: "images/skill-pics/bootstrap_img.png",
     },
     {
       skillname: "JavaScript",
-      imgurl: "images/js_img.png",
+      imgurl: "images/skill-pics/js_img.png",
     },
     {
       skillname: "jQuery",
-      imgurl: "images/jquery_img.png",
+      imgurl: "images/skill-pics/jquery_img.png",
     },
     {
       skillname: "REACT",
-      imgurl: "images/react_img.png",
+      imgurl: "images/skill-pics/react_img.png",
     },
     {
       skillname: "MongoDB",
-      imgurl: "images/mongodb_img.png",
+      imgurl: "images/skill-pics/mongodb_img.png",
     },
     {
       skillname: "Node",
-      imgurl: "images/nodejs_img.png",
+      imgurl: "images/skill-pics/nodejs_img.png",
     },
     {
       skillname: "Git",
-      imgurl: "images/git_img.png",
+      imgurl: "images/skill-pics/git_img.png",
     },
   ],
 
   portfolio: [
     {
-      name: "Portfolio",
+      name: "My portfolio",
       listItemTitle: "PORTFOLIO",
       imgurl: "images/portfolio/Shoma-Takami1.png",
       url: "https://shomatakami.ca",
@@ -85,14 +85,24 @@ let resumeData = {
       lan: "HTML5 / CSS3 / jQuery / JS / React ",
     },
     {
-      name: "Food Website",
+      name: "OmniFood",
       listItemTitle: "Food Simple website (Persona)",
 
-      imgurl: "images/portfolio/Omnifood3.png",
+      imgurl: "images/portfolio/Omnifood.png",
       url: "https://silly-goldberg-5938cf.netlify.app/",
       giturl: "https://github.com/ShomaTakami/Food_website",
       description:
         "well designed simple website which is responsible. UI/UX design.",
+      lan: "HTML5 / CSS3 / jQuery / JS",
+    },
+    {
+      name: "B-SPENT",
+      listItemTitle: "Web application Budget Calculator by JS",
+
+      imgurl: "images/portfolio/B-SPENT.png",
+      url: "https://vigorous-joliot-9151f1.netlify.app/",
+      giturl: "https://github.com/ShomaTakami/budgetCalculator",
+      description: "You can calculate your budget easily",
       lan: "HTML5 / CSS3 / jQuery / JS",
     },
     {
@@ -107,7 +117,7 @@ let resumeData = {
     },
     {
       name: "Photo Works",
-      listItemTitle: "SIMPLE WEB SITE",
+      listItemTitle: "Animation WEB SITE",
 
       imgurl: "images/portfolio/Photography.png",
       url: "https://shomatakami.ca/photography",
@@ -125,16 +135,16 @@ let resumeData = {
       description: "Simon game.",
       lan: "HTML5 / CSS3 / jQuery / JS",
     },
-    {
-      name: "Drum kit",
-      listItemTitle: "SOUND BUTTON by JS",
+    // {
+    //   name: "Drum kit",
+    //   listItemTitle: "SOUND BUTTON by JS",
 
-      imgurl: "images/portfolio/Drum Kit.png",
-      url: "https://frosty-kowalevski-1e9554.netlify.com/",
-      giturl: "https://github.com/ShomaTakami/drum_kit",
-      description: "drum Sound button. learn DOM ",
-      lan: "HTML5 / CSS3  / JS",
-    },
+    //   imgurl: "images/portfolio/Drum Kit.png",
+    //   url: "https://frosty-kowalevski-1e9554.netlify.com/",
+    //   giturl: "https://github.com/ShomaTakami/drum_kit",
+    //   description: "drum Sound button. learn DOM ",
+    //   lan: "HTML5 / CSS3  / JS",
+    // },
   ],
 };
 

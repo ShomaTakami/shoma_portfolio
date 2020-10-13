@@ -44,7 +44,7 @@ export default class Header extends Component {
               <h1 className="responsive-headline">
                 I am{" "}
                 <span
-                  class="typer"
+                  className="typer"
                   id="some-id"
                   data-words="_,_,Frontend Developer,Shoma Takami"
                   data-colors="#fff,#fff,#fff,#f06000"

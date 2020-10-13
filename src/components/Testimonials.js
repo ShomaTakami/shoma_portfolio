@@ -11,8 +11,9 @@ export default class Testimonials extends Component {
               resumeData.portfolio.map((item) => {
                 return (
                   <div key={item.name} className="list-item column ">
-                    <div className="list-item-title">{item.listItemTitle}</div>
                     <div className="item-wrap">
+                      {" "}
+                      <div className="list-item-title">{item.name}</div>
                       <div className="img-flame">
                         <img
                           src={`${item.imgurl}`}
@@ -26,7 +27,7 @@ export default class Testimonials extends Component {
                             className="button work_button"
                             href={item.url}
                             target="_blank"
-                            without
+                            without="true"
                             rel="noopener noreferrer"
                           >
                             <i className="fa fas fa-eye"></i> View
@@ -35,7 +36,7 @@ export default class Testimonials extends Component {
                             className="button work_button"
                             href={item.giturl}
                             target="_blank"
-                            without
+                            without="true"
                             rel="noopener noreferrer"
                           >
                             <i className="fa fab fa-github"></i> Github

@@ -958,26 +958,33 @@ input[type="checkbox"] {
 }
 
 .list-item {
-  background-color: #1f20248f;
   padding: 10px;
   margin: 40px auto;
   position: relative;
   width: 75%;
-  border: 5px solid #1f2024;
 }
-.list-item > .list-item-title {
-  background: #1f2024a8;
-  color: white;
+.list-item-title {
+  color: #f07929;
+  font: bold 300;
   margin-bottom: 5px;
 }
 .item-wrap {
-  -webkit-box-sizing: border-box; /*webkit系*/
-  -moz-box-sizing: border-box; /*Firefox*/
+  border-radius: 5px;
+  border: 3px solid #1f2024e3;
+  background-color: #1f20248f;
+  -webkit-box-sizing: border-box;
+  /*webkit系*/
+  -moz-box-sizing: border-box;
+  /*Firefox*/
   box-sizing: border-box;
   padding: 0;
   margin: 0;
   height: 100%;
   width: 100%;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
 }
 .item-img {
   width: 80%;

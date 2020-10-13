@@ -19,7 +19,8 @@ header {
   height: 800px;
   min-height: 500px;
   width: 100%;
-  background: #161415 url(../images/header-background.jpg) no-repeat top center;
+  background: #161415 url(../images/header-background-min.jpg) no-repeat top
+    center;
   background-size: cover !important;
   -webkit-background-size: cover !important;
   text-align: center;
@@ -435,7 +436,7 @@ ul#nav li.current a {
 
 #testimonials {
   background: rgba(20, 20, 20, 0.3)
-    url(../images/jason-blackeye-qPe_PHVG95E-unsplash.jpg) no-repeat center
+    url(../images/jason-blackeye-qPe_PHVG95E-unsplash-min.jpg) no-repeat center
     center;
   background-size: cover !important;
   -webkit-background-size: cover !important;
