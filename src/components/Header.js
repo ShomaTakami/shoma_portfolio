@@ -16,6 +16,11 @@ export default class Header extends Component {
                 </a>
               </li>
               <li>
+                <a className="smoothscroll" href="#testimonials">
+                  Work
+                </a>
+              </li>
+              <li>
                 <a className="smoothscroll" href="#about">
                   About
                 </a>
@@ -23,11 +28,6 @@ export default class Header extends Component {
               <li>
                 <a className="smoothscroll" href="#resume">
                   Resume
-                </a>
-              </li>
-              <li>
-                <a className="smoothscroll" href="#testimonials">
-                  Work
                 </a>
               </li>
               <li>
@@ -80,11 +80,11 @@ export default class Header extends Component {
               </div>
             </div>
             <br />
-            <p className="scrolldown">
-              <a className="smoothscroll" href="#about">
+            {/* <p className="scrolldown">
+              <a className="smoothscroll" href="#testimonials">
                 <i className="icon-down-circle"></i>
               </a>
-            </p>
+            </p> */}
           </div>
         </header>
       </React.Fragment>

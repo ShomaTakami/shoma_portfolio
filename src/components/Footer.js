@@ -8,7 +8,7 @@ export default class Footer extends Component {
           <div className="twelve columns">
             <ul className="social-links">
               {resumeData.socialLinks &&
-                resumeData.socialLinks.map(item => {
+                resumeData.socialLinks.map((item) => {
                   return (
                     <li key={item.className}>
                       <a
@@ -23,11 +23,11 @@ export default class Footer extends Component {
                 })}
             </ul>
           </div>
-          <div id="go-top">
+          {/* <div id="go-top">
             <a className="smoothscroll" title="Back to Top" href="#home">
               <i className="icon-up-open" />
             </a>
-          </div>
+          </div> */}
         </div>
       </footer>
     );

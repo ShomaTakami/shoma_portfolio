@@ -967,6 +967,7 @@ input[type="checkbox"] {
   color: #f07929;
   font: bold 300;
   margin-bottom: 5px;
+  font-weight: 500;
 }
 .item-wrap {
   border-radius: 5px;
