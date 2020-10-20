@@ -734,9 +734,9 @@ input[type="checkbox"] {
 
 /* ---------------------------------------------------------- */
 .row {
-  width: 96%;
+  width: 90%;
   max-width: 1020px;
-  margin: 0 auto;
+  margin: 0 5% 0 auto;
 }
 
 .work-width {
