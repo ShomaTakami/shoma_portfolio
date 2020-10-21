@@ -3,7 +3,7 @@ export default class Footer extends Component {
   render() {
     return (
       <footer className="fade_on">
-        <div className="row">
+        <div className="row container">
           <span>© 2020 created by Shoma Takami </span>
 
           {/* <div id="go-top">

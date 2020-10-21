@@ -39,7 +39,7 @@ export default class Testimonials extends Component {
                             without="true"
                             rel="noopener noreferrer"
                           >
-                            <i className="fa fab fa-github"></i> Github
+                            <i className="fa fab fa-github"></i> Git
                           </a>
                         </div>
                       </div>

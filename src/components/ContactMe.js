@@ -4,14 +4,14 @@ export default class ContactMe extends Component {
     // let resumeData = this.props.resumeData;
     return (
       <section id="contact" className="fade_off slide">
-        <div className="row section-head">
+        <div className="row container-other section-head">
           <div className="three columns header-col">
             <h1>
               <span>Contact</span>
             </h1>
           </div>
           <div className="nine columns main-col text-center">
-            <div className="row item">
+            <div className="row item container">
               <div className="twelve columns">
                 <p>
                   I'm currently looking for job opportunities, my inbox is

@@ -11,13 +11,15 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <Navigation resumeData={resumeData} />
-        <Header resumeData={resumeData} />
-        <Testimonials resumeData={resumeData} />
-        <About resumeData={resumeData} />
-        <Resume resumeData={resumeData} />
-        <ContactMe resumeData={resumeData} />
-        <Footer resumeData={resumeData} />
+        <div className="bg-forest">
+          <Navigation resumeData={resumeData} />
+          <Header resumeData={resumeData} />
+          <Testimonials resumeData={resumeData} />
+          <About resumeData={resumeData} />
+          <Resume resumeData={resumeData} />
+          <ContactMe resumeData={resumeData} />
+          <Footer resumeData={resumeData} />
+        </div>
       </div>
     );
   }

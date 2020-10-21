@@ -35,9 +35,7 @@ export default class Navigation extends Component {
               <a className="smoothscroll" href="#contact">
                 Contact
               </a>
-            </li>{" "}
-            {/* <div className="twelve columns"> */}
-            {/* <ul className="social-links"> */}
+            </li>
             {resumeData.socialLinks &&
               resumeData.socialLinks.map((item) => {
                 return (
@@ -52,8 +50,6 @@ export default class Navigation extends Component {
                   </li>
                 );
               })}
-            {/* </ul> */}
-            {/* </div> */}
           </ul>
         </div>{" "}
       </nav>

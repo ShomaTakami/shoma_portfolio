@@ -62,7 +62,7 @@ export default class Header extends Component {
                 {" "}
                 <a
                   className="button"
-                  href="https://shomatakami.ca/images/shoma-resume.pdf"
+                  href="https://shomatakami.ca/images/shoma_resume.pdf"
                   download="shoma.pdf"
                 >
                   <i className="fa fa-download"></i> Resume

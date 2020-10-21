@@ -4,7 +4,7 @@ export default class About extends Component {
     let resumeData = this.props.resumeData;
     return (
       <section id="about" className="fade_off slide">
-        <div className="row">
+        <div className="row container-other">
           <div className="three columns header-col">
             <h1>
               <span>About Me</span>

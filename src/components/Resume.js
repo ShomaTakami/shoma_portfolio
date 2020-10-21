@@ -4,7 +4,7 @@ export default class Resume extends Component {
     let resumeData = this.props.resumeData;
     return (
       <section id="resume" className="fade_off slide">
-        <div className="row skill" id="skill_section">
+        <div className="row container-other skill" id="skill_section">
           <div className="three columns header-col">
             <h1>
               <span>Skills</span>
@@ -29,7 +29,7 @@ export default class Resume extends Component {
             </div>
           </div>
         </div>
-        <div className="row education">
+        <div className="row container-other education">
           <div className="three columns header-col">
             <h1>
               <span>Education</span>
