@@ -488,7 +488,13 @@
     width: auto;
     float: none;
   }
-
+  #home .button,
+  .button:visited {
+    width: 40%;
+  }
+  .portfolio-item-meta .button {
+    width: 30%;
+  }
   /* header styles
    -------------------------------------------------------------------- */
   header {
