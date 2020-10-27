@@ -1,6 +1,8 @@
 import React, { Component } from "react";
 export default class Header extends Component {
   render() {
+    let resumeData = this.props.resumeData;
+
     return (
       <React.Fragment>
         <header id="home">
@@ -67,6 +69,24 @@ export default class Header extends Component {
                 >
                   <i className="fa fa-download"></i> Resume
                 </a>
+              </div>
+              <div className="social-btn">
+                <ul>
+                  {resumeData.socialLinks &&
+                    resumeData.socialLinks.map((item) => {
+                      return (
+                        <li key={item.className}>
+                          <a
+                            href={item.url}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                          >
+                            <i className={item.className} />
+                          </a>
+                        </li>
+                      );
+                    })}
+                </ul>
               </div>
             </div>
             <br />

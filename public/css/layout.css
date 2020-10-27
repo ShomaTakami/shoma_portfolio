@@ -104,7 +104,9 @@ header .scrolldown a {
 header .scrolldown a:hover {
   color: #f06000;
 }
-
+.social-btn {
+  display: none;
+}
 /* primary navigation
 --------------------------------------------------------------------- */
 
