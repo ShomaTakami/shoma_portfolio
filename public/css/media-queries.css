@@ -71,7 +71,7 @@
   }
   /* nav-wrap */
   #nav-wrap {
-    font: 11px "opensans-bold", sans-serif;
+    font: 11px "abolition", sans-serif;
     letter-spacing: 1.5px;
   }
 
@@ -91,11 +91,13 @@
 
   /* Resume Section
    ------------------------------------------------------------------- */
+  #testimonials h1,
   #about h1,
   #resume h1,
   #contact h1 {
     font: 16px/24px "abolition", sans-serif;
   }
+  #testimonials .main-col,
   #about .main-col,
   #resume .main-col,
   #contact .main-col {
@@ -237,6 +239,7 @@
 
   /* Header Styles
    -------------------------------------------------------------------- */
+
   header .banner {
     padding-bottom: 12px;
     padding-top: 6px;
@@ -323,26 +326,7 @@
   .container {
     margin: 0 4%;
   }
-  /* Call To Action Section
-   /* ----------------------------------------------------------------- */
-  #call-to-action {
-    text-align: center;
-  }
-  #call-to-action h1 {
-    font: 16px/24px "opensans-bold", sans-serif;
-    text-align: center;
-    margin-bottom: 30px;
-    text-shadow: 0px 1px 3px rgba(0, 0, 0, 1);
-  }
-  #call-to-action h1 span {
-    display: block;
-  }
-  #call-to-action .header-col h1:before {
-    content: none;
-  }
-  #call-to-action p {
-    font-size: 15px;
-  }
+
   /* skill section */
   #skill_section {
     width: 100%;
@@ -396,15 +380,18 @@
   #testimonials .text-container {
     text-align: center;
   }
-  #testimonials h1 {
-    font: 16px/24px "opensans-bold", sans-serif;
-    text-align: center;
-    /* margin-bottom: 30px; */
-    text-shadow: 0px 1px 3px rgba(0, 0, 0, 1);
-  }
-  #testimonials h1 span {
+  .work_title {
     display: block;
   }
+  #testimonials h1 {
+    display: inline-block;
+    font: 16px/24px "abolition", sans-serif;
+    text-align: center;
+    text-shadow: 0px 1px 3px rgba(0, 0, 0, 1);
+    padding: 0;
+    position: relative;
+  }
+
   #testimonials .header-col h1:before {
     content: none;
   }
@@ -432,7 +419,7 @@
   }
   #contact .section-head h1,
   #testimonials .section-head h1 {
-    font: 16px/24px "opensans-bold", sans-serif;
+    font: 16px/24px "abolition", sans-serif;
     text-align: center;
     /* margin-bottom: 30px; */
     text-shadow: 0px 1px 3px rgba(0, 0, 0, 1);
@@ -501,7 +488,7 @@
   /* header styles
    -------------------------------------------------------------------- */
   header {
-    height: 75vh !important;
+    height: 100vh !important;
     width: 100vw;
   }
   header .banner {
@@ -509,7 +496,7 @@
   }
   header .banner-text h1 {
     font-size: 2em;
-    margin: 200px auto 100px auto;
+    margin: 20 auto 10px auto;
   }
 
   /* header social links */
@@ -530,11 +517,15 @@
     margin: 5px 0 !important;
   }
   #about h2,
-  #contact h1,
-  #testimonials h1 {
+  #contact h1 {
     font: 16px/24px "abolition", sans-serif;
     text-align: center;
     padding-bottom: 20px;
+  }
+  #testimonials h1 {
+    font: 16px/24px "abolition", sans-serif;
+    text-align: center;
+    padding-bottom: 0px;
   }
 
   #about main-col {
@@ -601,11 +592,5 @@
     line-height: 7px;
     font-size: 7px/20px !important;
     margin: 5px 0 !important;
-  }
-  @media only screen and (max-width: 300px) {
-    #contact h1 {
-      font: 16px/24px "opensans-bold", sans-serif;
-      text-align: center;
-    }
   }
 }

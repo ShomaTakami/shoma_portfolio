@@ -340,6 +340,7 @@ ul#nav li.current a {
   text-transform: uppercase;
   letter-spacing: 1px;
 }
+#testimonials h1 span,
 #about h1 span,
 #resume h1 span {
   border-bottom: 3px solid #f06000;
@@ -432,77 +433,20 @@ ul#nav li.current a {
   border-radius: 3px 0 0 3px;
 }
 
-/* ------------------------------------------------------------------ */
-/* f. Call To Action Section
-/* ------------------------------------------------------------------ */
-
-/* #call-to-action {
-  background: #212121;
-  padding-top: 66px;
-  padding-bottom: 48px;
-}
-#call-to-action h1 {
-  font: 18px/24px "Roboto Slab", serif;
-  text-transform: uppercase;
-  letter-spacing: 3px;
-  color: #fff;
-}
-#call-to-action h1 span {
-  display: none;
-}
-#call-to-action .header-col h1:before {
-  font-family: "FontAwesome";
-  content: "\f0ac";
-  padding-right: 10px;
-  font-size: 72px;
-  line-height: 72px;
-  text-align: left;
-  float: left;
-  color: #fff;
-}
-#call-to-action .action {
-  margin-top: 12px;
-}
-#call-to-action h2 {
-  font: 28px/36px "Roboto Slab", serif;
-  color: #ebeeee;
-  margin-bottom: 6px;
-}
-#call-to-action h2 a {
-  color: inherit;
-}
-#call-to-action p {
-  color: #636363;
-  font-size: 17px;
-}
-
-#call-to-action .button:hover,
-#call-to-action .button:active {
-  background: #ffffff;
-  color: #0d0d0d;
-}
-#call-to-action p span {
-  font-family: "Roboto Slab", serif;
-  color: #d8d8d8;
-} */
-
 /* ------------------------------------------------------------------
 /* g. Testimonials
 /* ------------------------------------------------------------------ */
 
 #testimonials {
   background-color: #1f2024;
-  /* background: rgba(20, 20, 20, 0.3)
-    url(../images/jason-blackeye-qPe_PHVG95E-unsplash-min.jpg) no-repeat center
-    center; */
-  /* background-size: cover !important;
-  -webkit-background-size: cover !important;
-  background-attachment: fixed; */
   text-align: center;
   position: relative;
   min-height: 200px;
   width: 100%;
   overflow: hidden;
+}
+.work_title {
+  display: none;
 }
 .container {
   width: 90%;
@@ -548,6 +492,9 @@ ul#nav li.current a {
 
 #testimonials .header-col {
   padding-top: 9px;
+}
+#testimonials h1 {
+  display: none;
 }
 #testimonials .header-col h1:before {
   font-family: "FontAwesome";

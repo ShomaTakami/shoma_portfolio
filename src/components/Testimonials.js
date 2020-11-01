@@ -6,6 +6,11 @@ export default class Testimonials extends Component {
     return (
       <section id="testimonials" className="fade_off slide">
         <div className="container">
+          <div className="three columns header-col work_title">
+            <h1>
+              <span>Works</span>
+            </h1>
+          </div>
           <div className="bgrid-halves s-bgrid-halves clearfix card-container">
             {resumeData.portfolio &&
               resumeData.portfolio.map((item) => {
