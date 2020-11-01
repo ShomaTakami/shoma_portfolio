@@ -107,35 +107,7 @@ header .scrolldown a:hover {
 .social-btn {
   display: none;
 }
-/* primary navigation
---------------------------------------------------------------------- */
 
-/* nav-wrap */
-/* #nav-wrap {
-  background-color: #181818;
-  font: 12px "opensans-bold", sans-serif;
-  width: 100%;
-  text-transform: uppercase;
-  letter-spacing: 2.5px;
-  margin: 0 auto;
-  z-index: 100;
-  position: fixed;
-  left: 0;
-  top: 0;
-  transition: top 0.3s;  Transition effect when sliding down (and up)
-} */
-/* #nav-wrap {
-  border: 1px solid red;
-  font: 12px "opensans-bold", sans-serif;
-  text-transform: uppercase;
-  letter-spacing: 2.5px;
-  z-index: 100;
-  position: fixed;
-  top: 0;
-  right: 0;
-  transition: top 0.3s;
-  padding: 5px;
-} */
 #nav-wrap {
   height: 100vh;
   z-index: 9999;
@@ -179,10 +151,6 @@ header .scrolldown a:hover {
   background-color: #333;
 }
 
-/* hide toggle button */
-/* #nav-wrap a.mobile-btn {
-  display: none;
-} */
 .nav-box a.mobile-btn {
   display: none;
 }

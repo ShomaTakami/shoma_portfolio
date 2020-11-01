@@ -1,8 +1,6 @@
 /* ==================================================================
 
-*   Ceevee Media Queries
-*   url: styleshout.com
-*   03-18-2014
+
 /* ================================================================= */
 @media only screen and (max-width: 1400px) {
   /* header styles
@@ -123,12 +121,6 @@
     font-size: 20px !important;
     line-height: 2 !important;
     margin: 10px !important;
-  }
-  /* Call to Action Section
-   ------------------------------------------------------------------- */
-  #call-to-action .header-col h1:before {
-    font-size: 66px;
-    line-height: 66px;
   }
 
   /* Contact Section
