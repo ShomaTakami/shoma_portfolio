@@ -78,7 +78,7 @@ let resumeData = {
     {
       name: "My portfolio",
       listItemTitle: "PORTFOLIO",
-      imgurl: "images/portfolio/Shoma-Takami1.png",
+      imgurl: "images/portfolio/Shoma-Takami.png",
       url: "https://shomatakami.ca",
       giturl: "https://github.com/ShomaTakami/shoma_portfolio",
       description: "My portfolio.",

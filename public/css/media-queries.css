@@ -94,7 +94,7 @@
   #about h1,
   #resume h1,
   #contact h1 {
-    font: 16px/24px "opensans-bold", sans-serif;
+    font: 16px/24px "abolition", sans-serif;
   }
   #about .main-col,
   #resume .main-col,
@@ -532,7 +532,7 @@
   #about h2,
   #contact h1,
   #testimonials h1 {
-    font: 16px/24px "opensans-bold", sans-serif;
+    font: 16px/24px "abolition", sans-serif;
     text-align: center;
     padding-bottom: 20px;
   }

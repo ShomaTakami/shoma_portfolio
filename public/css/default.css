@@ -193,7 +193,7 @@ html {
 
 body {
   background: #fff;
-  font-family: "Roboto Slab", serif;
+  font-family: "Roboto", serif;
   font-weight: 400;
   font-size: 15px;
   line-height: 30px;
@@ -627,12 +627,11 @@ button,
   padding-left: 0 !important;
   padding-right: 0 !important;
   text-align: center;
-
-  border-radius: 200px;
-  -webkit-border-radius: 200px;
-  -moz-border-radius: 200px;
-  -ms-border-radius: 200px;
-  -o-border-radius: 200px;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
 }
 
 .portfolio-item-meta > button {
@@ -646,11 +645,11 @@ button:hover,
 .work_button {
   margin: 5px;
   width: 20%;
-  border-radius: 100px;
-  -webkit-border-radius: 100px;
-  -moz-border-radius: 100px;
-  -ms-border-radius: 100px;
-  -o-border-radius: 100px;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
 }
 button:active,
 .button:active {
@@ -965,7 +964,7 @@ input[type="checkbox"] {
 }
 .list-item-title {
   color: #f07929;
-  font: bold 300;
+  font: 3.1rem "abolition", sans-serif;
   margin-bottom: 5px;
   font-weight: 500;
 }

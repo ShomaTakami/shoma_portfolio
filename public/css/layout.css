@@ -48,7 +48,7 @@ header .banner-text {
   width: 100%;
 }
 header .banner-text h1 {
-  font: 5em "Roboto Mono", monospace;
+  font: 6em "sarina", monospace;
   color: #fff;
   letter-spacing: -2px;
   margin: 300px auto 100px auto;
@@ -153,6 +153,7 @@ header .scrolldown a:hover {
   background-color: #101010;
   display: fixed;
   min-height: 3543px;
+  font: 3.5rem "abolition", sans-serif;
 }
 .nav-box {
   border: 0px solid rgba(65, 65, 65, 1);
@@ -256,7 +257,9 @@ ul#nav li.current a {
   color: #f06000;
 }
 #about h1 {
-  font: 3.1rem "opensans-bold", sans-serif;
+  font-family: "abolition", sans-serif;
+  font-weight: 400;
+  font-style: normal; /* font: 3.1rem "opensans-bold", sans-serif; */
   text-transform: uppercase;
   letter-spacing: 1px;
 }
@@ -266,7 +269,9 @@ ul#nav li.current a {
 }
 #about h1,
 #resume h1 {
-  font: 3.1rem "opensans-bold", sans-serif;
+  font-family: "abolition", sans-serif;
+  font-weight: 400;
+  font-style: normal; /* font: 3.1rem "opensans-bold", sans-serif; */
   color: #fff;
   margin-bottom: 12px;
   text-transform: uppercase;
@@ -318,6 +323,7 @@ ul#nav li.current a {
   padding-top: 90px;
   padding-bottom: 72px;
   overflow: hidden;
+  font-family: "Roboto", serif;
 }
 
 #resume a,
@@ -330,7 +336,7 @@ ul#nav li.current a {
 }
 #about h1,
 #resume h1 {
-  font: 3.1rem "opensans-bold", sans-serif;
+  font: 6rem "abolition", sans-serif;
   text-transform: uppercase;
   letter-spacing: 1px;
 }
@@ -340,13 +346,13 @@ ul#nav li.current a {
   padding-bottom: 6px;
 }
 #resume h3 {
-  font: 3.1rem "opensans-bold", sans-serif;
+  font: 2.6rem "Roboto", sans-serif;
   color: #c5c5c5;
 }
-#about .header-col,
+/* #about .header-col,
 #resume .header-col {
   padding-top: 9px;
-}
+} */
 #about .main-col,
 #resume .main-col {
   padding-right: 10%;
@@ -360,7 +366,7 @@ ul#nav li.current a {
   /* border-bottom: 1px solid #e8e8e8; */
 }
 #resume .info {
-  font: 2.6rem "librebaskerville-italic", serif;
+  font: 2rem "Roboto", serif;
   color: #6e7881;
   margin-bottom: 18px;
   margin-top: 9px;
@@ -370,7 +376,7 @@ ul#nav li.current a {
   margin-left: 5px;
 }
 #resume .date {
-  font: 2.4rem "opensans-regular", sans-serif;
+  font: 2rem "Roboto", sans-serif;
   margin-top: 6px;
 }
 
@@ -430,7 +436,7 @@ ul#nav li.current a {
 /* f. Call To Action Section
 /* ------------------------------------------------------------------ */
 
-#call-to-action {
+/* #call-to-action {
   background: #212121;
   padding-top: 66px;
   padding-bottom: 48px;
@@ -478,7 +484,7 @@ ul#nav li.current a {
 #call-to-action p span {
   font-family: "Roboto Slab", serif;
   color: #d8d8d8;
-}
+} */
 
 /* ------------------------------------------------------------------
 /* g. Testimonials
@@ -534,7 +540,7 @@ ul#nav li.current a {
   top: 5px;
   left: 5px;
   padding-left: 96px;
-  font: 3.1rem "opensans-bold", sans-serif;
+  font: 3.1rem "abolition", sans-serif;
   text-transform: uppercase;
   letter-spacing: 3px;
   color: #fff;
@@ -689,7 +695,7 @@ ul#nav li.current a {
   color: #f06000;
 }
 #contact h1 {
-  font: 3.1rem "opensans-bold", sans-serif;
+  font: 6rem "abolition", sans-serif;
   text-transform: uppercase;
   letter-spacing: 1px;
 }
