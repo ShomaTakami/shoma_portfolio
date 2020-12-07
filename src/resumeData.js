@@ -21,8 +21,8 @@ let resumeData = {
       className: "fa fa-twitter",
     },
   ],
-  aboutme:
-    "My name is Shoma. I'm a Japanese Front End Developer based in Vancouver, Canada. After I graduated the Highschool in Japan, I've been abroad to some countries to know that differences between Japan and others. I love workout, drawing, fashion and travelling. I've been focusing on building simple, user friendly design web sites and web applications. I'm a team player and love coding, always keen to learn new skills.",
+  aboutme: `My name is Shoma Takami. Front End Developer based in Vancouver, Canada.
+  I am excited to bring both my passion for life - long learning and the desire to make a positive impact on the future and to the field of web development.Experienced with React, Node.js, JavaScript, Git, HTML5, CSS3, Bootstrap, Firebase, Heroku, MongoDB, Netlify.`,
   address: "Japan",
   website: "https://github.com/ShomaTakami",
   education: [
